@@ -511,15 +511,15 @@ footer .footerBox li:first-of-type a {
     }
 
     #burger ~ nav > .burger > li:last-of-type {
-        height: 45.7vw;
+        height: 36.7vw;
     }
 
     .purpleHover {
-        height: 39.7vw;
+        height: 28.7vw;
         display: flex !important;
         flex-direction: column;
         justify-content: space-between;
-        padding: 6.1vw 8vw !important;
+        padding: 0 8vw !important;
         font-size: 3.42vw !important;
         font-family: 'Futura_Bold' !important;
     }
