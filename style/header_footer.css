@@ -96,8 +96,13 @@ header .menu .pinkHover:hover {
     border-bottom: 2px solid #EC008C;
 }
 
+header .menu .yellowHover {
+    padding: 0.8vw 1.5vw;
+}
+
 header .menu .yellowHover:hover {
     border: 2px solid #FDB834;
+    padding: 0.8vw 1.5vw;
 }
 
 header .menu .yellowHover:hover a {
@@ -110,7 +115,7 @@ header .menu .orangeHover:hover a {
 
 header .menu .orangeHover {
     border-radius: 14.6vw/5.21vw;
-    padding: 0.42vw 1.67vw;
+    padding: 0.5vw 1.67vw;
 }
 
 header .menu .orangeHover:hover {
@@ -124,10 +129,13 @@ header .menu .greenHover:hover a {
 
 header .menu .greenHover {
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    padding: 1.05vw 3vw 0.53vw;
+    padding: 0.8vw 3vw;
+    /*    margin: -0.9vw 0 0;*/
 }
+
+header .menu .greenHover a {}
 
 header .menu .greenHover:hover {
     background-image: url(../img/Polygon.png);
