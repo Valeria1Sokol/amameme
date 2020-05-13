@@ -473,7 +473,7 @@ footer .footerBox li:first-of-type a {
     }
 
     #burger:checked ~ nav {
-        height: 102vh;
+        height: 110vh;
         top: 0;
         padding: 0 0 3vw;
     }
