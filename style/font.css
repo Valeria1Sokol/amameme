@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Futura_Bold';
+    src: url("../font/FuturaLT/FuturaBold.otf");
+}
+
+@font-face {
+    font-family: 'FuturaMediumC', sans-serif;
+    src: url("../font/FuturaLT/FuturaMediumC.ttf");
+}
+@font-face {
+    font-family: 'FuturaPT_Book', sans-serif;
+    src: url("../font/FuturaLT/FuturaPT-Book.ttf");
+}
+@font-face {
+    font-family: 'AvenirLTStd-Book', sans-serif;
+    src: url("../font/AvenirLTStd-Book.otf");
+}
+@font-face {
+    font-family: 'AvenirLTStd-Black', sans-serif;
+    src: url("../font/AvenirLTStd-Black.otf");
+}
+
