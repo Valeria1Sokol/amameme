@@ -25,7 +25,9 @@ body {
     width: 100vw;
     background-image: url(../img/Group%205542.png);
     background-repeat: no-repeat;
-    background-size: cover;
+/*    background-size: 94% 122%;*/
+    background-color: #070707;
+    background-position: center;
     font-family: 'AvenirLTStd-Light_2', sans-serif;
     animation: wave 80s linear infinite;
 }
@@ -37,7 +39,7 @@ h4 {
 }
 
 .p {
-    font-size: 0.68vw;
+    font-size: 13px;
     color: white;
 }
 
@@ -56,9 +58,9 @@ header {
 
 header .menu {
     width: 100%;
-    max-width: 61.1vw;
+    max-width: 1173px;
     margin: 0 auto;
-    padding: 2vw 3.34vw;
+    padding: 38px 64px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -66,12 +68,12 @@ header .menu {
 }
 
 header .menu li {
-    padding: 0.8vw 1.05vw;
+    padding: 15px 20px;
     border: 2px solid transparent;
 }
 
 header .menu .logo {
-    width: 8vw;
+    width: 153px;
 }
 
 header .menu li:first-of-type {
@@ -79,9 +81,9 @@ header .menu li:first-of-type {
 }
 
 header .menu .menuText {
-    font-size: 1.05vw;
+    font-size: 20px;
     font-family: 'FuturaMediumC', sans-serif;
-    line-height: 1.4vw;
+    line-height: 26px;
 }
 
 header .menu .menuText:hover {
@@ -97,12 +99,12 @@ header .menu .pinkHover:hover {
 }
 
 header .menu .yellowHover {
-    padding: 0.8vw 1.5vw;
+    padding: 15px 28px;
 }
 
 header .menu .yellowHover:hover {
     border: 2px solid #FDB834;
-    padding: 0.8vw 1.5vw;
+    padding: 15px 28px;
 }
 
 header .menu .yellowHover:hover a {
@@ -114,8 +116,8 @@ header .menu .orangeHover:hover a {
 }
 
 header .menu .orangeHover {
-    border-radius: 14.6vw/5.21vw;
-    padding: 0.5vw 1.67vw;
+    border-radius: 280px/100px;
+    padding: 10px 32px;
 }
 
 header .menu .orangeHover:hover {
@@ -131,11 +133,9 @@ header .menu .greenHover {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    padding: 0.8vw 3vw;
-    /*    margin: -0.9vw 0 0;*/
+    padding: 15px 57px;
 }
 
-header .menu .greenHover a {}
 
 header .menu .greenHover:hover {
     background-image: url(../img/Polygon.png);
@@ -148,25 +148,25 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 21.9vw 3.65vw 23vw;
+    padding: 0 420px 70px 441px;
 }
 
 footer .footerMenu {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 1057px;
     justify-content: space-between;
     align-items: center;
-    padding: 0 11.8vw 0 5vw;
-    margin: 0 0 3.3vw;
+    padding: 0 226px 0 96px;
+    margin: 0 0 63px;
 }
 
 .footerLogo {
-    width: 9.65vw;
+    width: 185px;
 }
 
 footer .footerMenu .menuText {
-    font-size: 1.05vw;
+    font-size: 20px;
     font-family: 'FuturaMediumC', sans-serif;
     display: flex;
     flex-direction: row;
@@ -175,25 +175,25 @@ footer .footerMenu .menuText {
 }
 
 footer .footerMenu .menuText img {
-    margin: 0 0.7vw 0 0;
+    margin: 0 13px 0 0;
 
 }
 
 footer .footerMenu .oval {
-    width: 2.2vw;
+    width: 42px;
 }
 
 footer .footerMenu .rect {
-    width: 1.25vw;
+    width: 24px;
 }
 
 footer .footerMenu .circ {
-    width: 1.41vw;
+    width: 27px;
 }
 
 footer .footerMenu li:first-of-type .menuText img {
-    margin: 0 0.7vw 0 0;
-    width: 2.1vw;
+    margin: 0 13px 0 0;
+    width: 40px;
 }
 
 footer .footerBox {
@@ -206,10 +206,10 @@ footer .footerBox {
 }
 
 footer .footerBox a {
-    font-size: 0.73vw;
+    font-size: 14px;
     font-family: 'Futura_Book', sans-serif;
     color: rgba(255, 255, 255, 0.6);
-    margin: 0 2.3vw 0 0;
+    margin: 0 44px 0 0;
 }
 
 footer .footerBox li:last-of-type a {
@@ -217,7 +217,7 @@ footer .footerBox li:last-of-type a {
 }
 
 footer .footerBox li:first-of-type a {
-    font-size: 0.68vw;
+    font-size: 13px;
     font-family: 'FuturaMediumC', sans-serif;
 }
 
@@ -312,6 +312,103 @@ footer .footerBox li:first-of-type a {
 
 #burger {
     display: none;
+}
+
+@media all and (max-width:1920px) {
+    body {
+        background-size: cover;
+    }
+
+    .p {
+        font-size: 0.68vw;
+    }
+
+    header .menu {
+        max-width: 61.1vw;
+        padding: 2vw 3.34vw;
+    }
+
+    header .menu li {
+        padding: 0.8vw 1.05vw;
+    }
+
+    header .menu .logo {
+        width: 8vw;
+    }
+
+    header .menu .menuText {
+        font-size: 1.05vw;
+        line-height: 1.4vw;
+    }
+
+    header .menu .yellowHover {
+        padding: 0.8vw 1.5vw;
+    }
+
+    header .menu .yellowHover:hover {
+        padding: 0.8vw 1.5vw;
+    }
+
+    header .menu .orangeHover {
+        border-radius: 14.6vw/5.21vw;
+        padding: 0.5vw 1.67vw;
+    }
+
+    header .menu .greenHover {
+        padding: 0.8vw 3vw;
+    }
+
+    footer {
+        padding: 0 21.9vw 3.65vw 23vw;
+    }
+
+    footer .footerMenu {
+        padding: 0 11.8vw 0 5vw;
+        margin: 0 0 3.3vw;
+    }
+
+    .footerLogo {
+        width: 9.65vw;
+    }
+
+    footer .footerMenu .menuText {
+        font-size: 1.05vw;
+    }
+
+    footer .footerMenu .menuText img {
+        margin: 0 0.7vw 0 0;
+    }
+
+    footer .footerMenu .oval {
+        width: 2.2vw;
+    }
+
+    footer .footerMenu .rect {
+        width: 1.25vw;
+    }
+
+    footer .footerMenu .circ {
+        width: 1.41vw;
+    }
+
+    footer .footerMenu li:first-of-type .menuText img {
+        margin: 0 0.7vw 0 0;
+        width: 2.1vw;
+    }
+
+    footer .footerBox a {
+        font-size: 0.73vw;
+        margin: 0 2.3vw 0 0;
+    }
+
+
+    footer .footerBox li:first-of-type a {
+        font-size: 0.68vw;
+    }
+
+    .btn-primary {
+        width: 0.27vw;
+    }
 }
 
 @media all and (max-width:1440px) {
@@ -547,6 +644,7 @@ footer .footerBox li:first-of-type a {
     footer .footerMenu {
         padding: 0;
         margin: 0 0 3.3vw;
+        width: 100%;
     }
 
     footer .footerMenu li:first-of-type .menuText img {
