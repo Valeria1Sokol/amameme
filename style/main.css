@@ -195,6 +195,11 @@
 #sliderSport .imgBox {
     background-color: #4DB848;
 }
+.filmBox
+{
+   border-radius: 20px; 
+    overflow: hidden;
+}
 
 .filmBox .imgBox {
     padding: 0 0 1px 1px;
@@ -402,7 +407,9 @@
     font-family: 'AvenirLTStd-Book', sans-serif;
 }
 
-
+.owl-carousel .imgBox .img-fluid:hover {
+   transform: scale(1.1);
+}
 .owl-carousel .imgBox .img-fluid {
     width: 100%;
     height: 100%;
@@ -412,9 +419,7 @@
     border-radius: 20px;
     transition: all 0.5s;
 }
-.owl-carousel .imgBox .img-fluid:hover {
-   transform: scale(1.1);
-}
+
 
 .owl-carousel .imgBox .img1 {
     background-image: url(../img/img11.png);
@@ -541,6 +546,14 @@
         border-radius: 1.05vw;
         margin: 0 0 0.6vw;
     }
+    .filmBox
+{
+   border-radius: 1.05vw; 
+    overflow: hidden;
+}
+    .filmBox .imgBox .img:hover{
+    transform: scale(1.1);
+}
 
     .filmBox .imgBox .img {
         border-radius: 1.05vw;
