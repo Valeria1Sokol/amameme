@@ -316,7 +316,9 @@ footer .footerBox li:first-of-type a {
 
 @media all and (max-width:1920px) {
     body {
-        background-size: cover;
+/*        background-size: cover;*/
+           background-size: 142% 105%;
+            animation: wave 20s linear infinite;
     }
 
     .p {

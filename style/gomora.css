@@ -420,6 +420,7 @@ body {
     height: 344px;
     background-color: #F36F21;
     margin: 65px 0 0;
+    overflow: hidden;
 }
 
 .pageContent .left .imgBox .img {
@@ -431,7 +432,29 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    transition: all .5s;
 }
+
+.pageContent .left .imgBox .img:hover {
+    transform: scale(1.1);
+}
+
+.item .img img:hover {
+    transform: scale(1.1);
+}
+
+.right .img {
+    overflow: hidden;
+}
+
+.right .img .imgGomora {
+    transition: all .5s;
+}
+
+.right .img .imgGomora:hover {
+    transform: scale(1.1);
+}
+
 
 .pageContent .left .imgBox .img1 {
     background-image: url(../img/Image1.png);
@@ -510,12 +533,18 @@ body {
 
 .owl-carousel .item {
     background-color: #F36F21;
+    overflow: hidden;
 }
 
 .owl-carousel .item .img {
     position: relative;
     bottom: 4px;
     left: 4px;
+    /*    overflow: hidden;*/
+}
+
+.owl-carousel .owl-item img {
+    transition: all .5s;
 }
 
 .owl-carousel.owl-drag .owl-item {

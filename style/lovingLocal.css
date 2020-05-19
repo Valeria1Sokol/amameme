@@ -453,11 +453,37 @@ header .menu .orangeHover a {
     width: 255px;
     height: 173px;
     margin: 0 0 12px;
+    overflow: hidden;
 }
 
 .item .img img {
     width: 100%;
     height: 100%;
+    transition: all .5s;
+}
+
+.item .img img:hover {
+    transform: scale(1.1);
+}
+
+.img {
+    overflow: hidden;
+}
+
+.img .imgGomora {
+    transition: all .5s;
+}
+
+.img .imgGomora:hover {
+    transform: scale(1.1);
+}
+
+.img .placat {
+    transition: all .5s;
+}
+
+.img .placat:hover {
+    transform: scale(1.1);
 }
 
 .item .h4 {
@@ -772,6 +798,10 @@ header .menu .orangeHover a {
 
 
 @media (max-width: 1080px) {
+    .pageContent .right .mobileStyle {
+        width: 52%;
+    }
+
     .content .search {
         background-color: transparent;
         padding: 6.6vw 0 8.8vw;
@@ -855,8 +885,9 @@ header .menu .orangeHover a {
     }
 
     .pageContent .right .imgGomora {
-        width: 63vw;
-        height: 25.6vw;
+            width: 32vw;
+    height: 20.6vw;
+
         background-image: url(../img/locImg.png);
         background-size: cover;
         background-repeat: no-repeat;
