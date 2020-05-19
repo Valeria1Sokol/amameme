@@ -25,7 +25,7 @@ body {
     width: 100vw;
     background-image: url(../img/Group%205542.png);
     background-repeat: no-repeat;
-    /*    background-size: 94% 122%;*/
+        background-size: cover;
     background-color: #070707;
     background-position: center;
     font-family: 'AvenirLTStd-Light_2', sans-serif;
