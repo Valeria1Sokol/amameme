@@ -25,7 +25,7 @@ body {
     width: 100vw;
     background-image: url(../img/Group%205542.png);
     background-repeat: no-repeat;
-/*    background-size: 94% 122%;*/
+    /*    background-size: 94% 122%;*/
     background-color: #070707;
     background-position: center;
     font-family: 'AvenirLTStd-Light_2', sans-serif;
@@ -315,11 +315,7 @@ footer .footerBox li:first-of-type a {
 }
 
 @media all and (max-width:1920px) {
-    body {
-/*        background-size: cover;*/
-           background-size: 142% 105%;
-            animation: wave 20s linear infinite;
-    }
+
 
     .p {
         font-size: 0.68vw;
@@ -426,6 +422,11 @@ footer .footerBox li:first-of-type a {
 }
 
 @media all and (max-width:1080px) {
+    body {
+        /*        background-size: cover;*/
+        background-size: 142% 105%;
+        animation: wave 20s linear infinite;
+    }
 
     header .menu .orangeHover,
     header .menu .pinkHover,
