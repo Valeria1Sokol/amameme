@@ -16,37 +16,7 @@
     overflow-x: hidden;
 }
 
-.content .search {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #1D1D1D;
-    padding: 53px 0;
-}
 
-.content .search input {
-    width: 780px;
-    height: 77px;
-    background-color: transparent;
-    color: white;
-    font-family: 'FuturaPT_Book', sans-serif;
-    font-size: 22px;
-    padding: 0 27px;
-    border: 2px solid white;
-    border-radius: 2vw;
-    background-image: url(../img/searchImg.png);
-    background-repeat: no-repeat;
-    background-position: 98%;
-    background-size: 7%;
-    position: relative;
-    z-index: 4;
-}
-
-.content .search input::placeholder {
-    color: white;
-}
 
 .content .mainPoster {
     width: 100%;
@@ -469,7 +439,7 @@
         width: 65.5%;
         height: 4vw;
         font-size: 1.15vw;
-        padding: 0 1.4vw;
+        padding: 0 3vw;
         border-radius: 2vw;
         background-position: 98%;
         background-size: 7%;
@@ -645,7 +615,7 @@
 
 @media (max-width: 1080px) {
     body {
-        background-size: 121% 105%!important;
+        background-size: 121% 105% !important;
     }
 
     .content .search {
