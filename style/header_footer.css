@@ -140,6 +140,7 @@ header .menu .greenHover {
     background-size: contain;
     background-position: center;
     padding: 15px 57px;
+    margin: 0 0 0 -2vw;
 }
 
 
