@@ -553,17 +553,6 @@ body {
         max-width: 62vw;
     }
 
-    .content .search {
-        padding: 2.8vw 0;
-    }
-
-    .content .search input {
-        width: 65.5%;
-        height: 4vw;
-        font-size: 1.15vw;
-        padding: 0 1.4vw;
-    }
-
     .content .transition {
         padding: 0 0 1.46vw 6.5vw;
         font-size: 1.1vw;

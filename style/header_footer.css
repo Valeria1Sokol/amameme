@@ -395,6 +395,20 @@ footer .footerBox li:first-of-type a {
         padding: 0.8vw 3vw;
     }
 
+    .content .search {
+        padding: 2.8vw 0;
+    }
+
+    .content .search input {
+        width: 65.5%;
+        height: 4vw;
+        font-size: 1.15vw;
+        padding: 0 3vw;
+        border-radius: 2vw;
+        background-position: 98%;
+        background-size: 7%;
+    }
+
     footer {
         padding: 0 21.9vw 3.65vw 23vw;
     }
@@ -669,6 +683,21 @@ footer .footerBox li:first-of-type a {
 
     #burger:checked ~ body {
         overflow: hidden;
+    }
+
+    .content .search {
+        background-color: transparent;
+        padding: 6.6vw 0 8.8vw;
+    }
+
+    .content .search input {
+        width: 72%;
+        height: 10vw;
+        font-size: 3.15vw;
+        padding: 0 5.6vw;
+        border-radius: 5vw;
+        background-image: url(../img/searchImgMob.png);
+        background-size: 10%;
     }
 
     footer {
