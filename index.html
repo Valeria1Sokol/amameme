@@ -28,6 +28,7 @@
             <li class="pinkHover"><a href="" class="menuText">Best of international</a></li>
             <li class="yellowHover"><a href="" class="menuText">Kids</a></li>
             <li class="greenHover"><a href="" class="menuText">Sport</a></li>
+            <li class="violetHover"><a href="Features.html" class="menuText">Features</a></li>
             <li><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"><img alt="" src="img/nav.png"></a></li>
         </ul>
         <input id="burger" type="checkbox" />
@@ -39,13 +40,23 @@
         </label>
         <nav>
             <ul class="burger">
-                <li style="background-color: #F36F21"><a href="LovingLocal.html" class="orangeHover">Loving local </a></li>
-                <li style="background-color: #E30087"><a href="" class="pinkHover">Best of international </a></li>
-                <li style="background-color: #FDB834"><a href="" class="yellowHover">Kids</a></li>
-                <li style="background-color: #4DB848"><a href="" class="greenHover">Sport</a></li>
-                <li style="background-color: #822A85"><a href="" class="purpleHover">how do i work this thing?
-                        <img class="modalImg" alt="" src="img/modalImg.png">
-                    </a></li>
+                <li><a href="LovingLocal.html" style="color: #F36F21">Loving local </a>
+                    <p style="border-bottom: 1px solid #F36F21"></p>
+                </li>
+                <li><a href="" style="color: #E30087">Best of international </a>
+                    <p style="border-bottom: 1px solid  #E30087"></p>
+                </li>
+                <li><a href="" style="color: #FDB834">Kids</a>
+                    <p style="border-bottom: 1px solid  #FDB834"></p>
+                </li>
+                <li><a href="" style="color: #4DB848">Sport</a>
+                    <p style="border-bottom: 1px solid  #4DB848"></p>
+                </li>
+                <li><a href="Features.html" style="color: #822A85">Features</a>
+                    <p style="border-bottom: 1px solid  #822A85"></p>
+                </li>
+                <li><a href="" id="purpleHover">How does AmaMeme work?</a>
+                    <a href="" class="watchBtnMenu">Watch now</a></li>
             </ul>
         </nav>
     </header>
@@ -53,16 +64,9 @@
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-
                 <div class="modal-body">
-                    <div class="modalBox" style="background-color: #F36F21">
-                        <h1 class="h1">how do i work this thing?</h1>
-                        <img class="modalImg" alt="" src="img/modalImg.png">
-                    </div>
-                    <div class="modalBox" style="background-color: #EC008C">
-                        <h1 class="h1">how do i work this thing?</h1>
-                        <img class="modalImg" alt="" src="img/modalImg.png">
-                    </div>
+                    <h1 class="h1">How does AmaMeme work?</h1>
+                    <div class="modalBox"></div>
                 </div>
             </div>
         </div>
@@ -362,7 +366,7 @@
                     loop: true,
                     nav: true,
                     dots: false,
-                    slideBy:4
+                    slideBy: 4
                 });
 
             } else {
@@ -371,7 +375,7 @@
                     loop: true,
                     nav: true,
                     dots: false,
-                    slideBy:3
+                    slideBy: 3
                 });
             }
 

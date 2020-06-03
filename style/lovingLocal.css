@@ -10,7 +10,7 @@ a:hover {
 
 header .menu .orangeHover {
     color: #F36F21;
-    border: 2px solid #F36F21;
+    border-bottom: 2px solid #F36F21;
 }
 
 header .menu .orangeHover a {
@@ -133,7 +133,7 @@ header .menu .orangeHover a {
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #F36F21;
-    margin: 0 0 68px;
+    margin: 0 0 122px;
 }
 
 .h4 {
@@ -177,7 +177,7 @@ header .menu .orangeHover a {
     color: white;
     font-weight: normal;
     font-size: 21px;
-    margin: 57px 0 17px;
+    margin: 0px 0 17px;
 }
 
 .pageContent .right .tittle span {
@@ -249,7 +249,7 @@ header .menu .orangeHover a {
 
 .pageContent .right .moodBlock .categories {
     border: 1px solid #F36F21;
-    border-radius: 27px;
+    border-radius: 15px;
     padding: 33px 17px;
     color: #F36F21;
     font-size: 13px;
@@ -264,19 +264,16 @@ header .menu .orangeHover a {
 .pageContent .right .orangeTeg {
     color: #F36F21;
     font-size: 18px;
-    margin: 0 0 2px;
+    margin: 0.8vw 0 0;
     border-bottom: 1px solid #F36F21;
-}
-
-.pageContent .right .app {
-    margin: 38px 0 0;
-    font-size: 13px;
 }
 
 .pageContent .right .mobileStyle {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .pageContent .right .app span {
@@ -289,6 +286,30 @@ header .menu .orangeHover a {
     display: flex;
     flex-direction: column;
     width: 57.8%;
+}
+
+.pageContent .left .tittle {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pageContent .left .app {
+    font-size: 15px;
+    font-family: 'AvenirLTStd-Light_2', sans-serif;
+    color: white;
+    font-weight: 100;
+}
+
+.pageContent .left .app span {
+    font-size: 15px;
+    font-family: 'AEH', sans-serif;
+    color: #4EA7FF;
+    border-bottom: 1px solid #4EA7FF;
+    padding: 0 0 5px;
+    margin: 0 0 0 7px;
 }
 
 .pageContent .left .h1 {
@@ -308,22 +329,26 @@ header .menu .orangeHover a {
     color: white;
 }
 
+.pageContent .left .imgTittle {
+    margin: 33px 0;
+}
+
 .pageContent .left .placat {
-    width: 605px;
+    width: 100%;
     height: 340px;
     background-position: center;
     background-image: url(../img/Image1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 33px 0;
 }
 
 .pageContent .left .text {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
     font-size: 16px;
 }
 
@@ -333,11 +358,21 @@ header .menu .orangeHover a {
 
 .pageContent .left .text .txt span {
     border-left: 1px solid white;
-    padding: 0 5px;
+    padding: 0 5px 0 13px;
+    font-weight: 100;
 }
 
 .pageContent .left .text .txt span:first-of-type {
     margin: 0 0 0 8px;
+}
+
+.pageContent .left .watchBtn {
+    border: 1px solid #F36F21;
+    border-radius: 24px;
+    color: #F36F21;
+    font-size: 14px;
+    font-family: 'AvenirLTStd-Book', sans-serif;
+    padding: 10px 52px;
 }
 
 .pageContent .left .text .img {
@@ -350,11 +385,26 @@ header .menu .orangeHover a {
     margin: 0 20px 0 0;
 }
 
-.pageContent .left .iconBox {
+.pageContent .left .text div:first-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pageContent .left .text div:last-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageContent .left #iconBox {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 25px 0 0;
 }
 
 .pageContent .left .face {
@@ -375,8 +425,8 @@ header .menu .orangeHover a {
 }
 
 .pageContent .left .icon {
-    width: 33px;
-    height: 33px;
+    width: 38px;
+    height: 38px;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 50%;
@@ -395,24 +445,40 @@ header .menu .orangeHover a {
     font-size: 21px;
     font-family: 'FuturaMediumC', sans-serif;
     color: #F36F21;
-    margin: 48px 0 29px;
+    margin: 14px 0 29px;
+    padding: 42px 0 0 50px;
+    border-top: 1px solid #F36F21;
 }
 
 /*slider style*/
 .pageContent .left .slider {
-    margin: 0 0 38px 21px;
-    border-bottom: 1px solid #F36F21;
+    margin: 0px 0 0 50px;
 }
 
 .owl-carousel {
     display: none;
-    width: 89%;
+    width: 94%;
     z-index: 1;
-    padding: 0 0 58px;
+}
+
+.left .seeAll {
+    color: #F36F21;
+    font-size: 12px;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-family: 'FuturaPT_Book', sans-serif;
+    width: 100%;
+    text-align: right;
+    border-bottom: 1px solid #F36F21;
+    padding: 0 2vw 25px;
+}
+
+.left .seeAll:hover {
+    cursor: pointer;
 }
 
 .pageContent .left .h2 {
-    margin: 0 0 38px 21px;
+    margin: 44px 0 38px 50px;
     font-size: 21px;
     font-family: 'FuturaMediumC', sans-serif;
     color: #F36F21;
@@ -481,7 +547,7 @@ header .menu .orangeHover a {
 }
 
 .owl-carousel .owl-nav button.owl-prev {
-    left: -2.6vw;
+    left: -2.5vw;
 }
 
 .owl-carousel .owl-nav button.owl-next:focus,
@@ -546,9 +612,8 @@ header .menu .orangeHover a {
         font-size: 0.73vw;
     }
 
-
     .content .main {
-        padding: 3.4vw 2.3vw 5.21vw 3.5vw;
+        padding: 3.4vw 2.3vw 5.31vw 3.5vw;
     }
 
     .content .h3 {
@@ -559,7 +624,7 @@ header .menu .orangeHover a {
 
     .content .tittleBox {
         width: 100%;
-        margin: 0 0 3.55vw;
+        margin: 0 0 6.55vw;
     }
 
     .h4 {
@@ -584,7 +649,7 @@ header .menu .orangeHover a {
 
     .pageContent .right .tittle {
         font-size: 1.1vw;
-        margin: 3vw 0 0.9vw;
+        margin: 0 0 0.9vw;
     }
 
     .pageContent .right .teg {
@@ -614,7 +679,7 @@ header .menu .orangeHover a {
     }
 
     .pageContent .right .moodBlock .categories {
-        border-radius: 1.4vw;
+        border-radius: 0.8vw;
         padding: 1.72vw 0.9vw;
         font-size: 0.7vw;
         margin: 0 0 0.94vw;
@@ -626,7 +691,6 @@ header .menu .orangeHover a {
 
     .pageContent .right .orangeTeg {
         font-size: 0.94vw;
-        margin: 0 0 0.1vw;
     }
 
     .pageContent .right .app {
@@ -643,6 +707,10 @@ header .menu .orangeHover a {
         width: 57.8%;
     }
 
+    .pageContent .left .app {
+        font-size: 0.8vw;
+    }
+
     .pageContent .left .h1 {
         font-size: 1.1vw;
     }
@@ -654,9 +722,18 @@ header .menu .orangeHover a {
     }
 
     .pageContent .left .placat {
-        width: 97%;
         height: 17.7vw;
+    }
+
+    .pageContent .left .imgTittle {
         margin: 1.7vw 0;
+    }
+
+    .pageContent .left .watchBtn {
+        border-radius: 2.1vw;
+        font-size: 0.74vw;
+        line-height: 0.74vw;
+        padding: 0.7vw 2.7vw;
     }
 
     .pageContent .left .text {
@@ -689,8 +766,8 @@ header .menu .orangeHover a {
 
 
     .pageContent .left .icon {
-        width: 1.7vw;
-        height: 1.7vw;
+        width: 2vw;
+        height: 2vw;
     }
 
     .pageContent .left .h3 span {
@@ -700,20 +777,25 @@ header .menu .orangeHover a {
     .pageContent .left .h3 {
         font-size: 1.1vw;
         margin: 2.5vw 0 1.5vw;
+        padding-left: 2.6vw;
     }
 
     /*slider style*/
     .pageContent .left .slider {
-        margin: 0 0 2vw 1.1vw;
+        margin: 0 0 0vw 2.6vw;
     }
 
     .owl-carousel {
-        width: 89%;
-        padding: 0 0 3vw;
+        width: 95%;
+    }
+
+    .left .seeAll {
+        font-size: 0.63vw;
+        padding: 0 2.4vw 1.3vw;
     }
 
     .pageContent .left .h2 {
-        margin: 0 0 2vw 1.1vw;
+        margin: 2.3vw 0 2vw 2.6vw;
         font-size: 1.1vw;
     }
 
@@ -756,30 +838,28 @@ header .menu .orangeHover a {
 
 
 @media (max-width: 1080px) {
-    .pageContent .right .mobileStyle {
-        width: 52%;
+
+    .pageContent .right .moodBox .moodTittleBox,
+    .pageContent .right .moodBlock,
+    .pageContent .right .orangeTeg,
+    .pageContent .right .tittle,
+    .pageContent .left .app,
+    .content .mainPoster {
+        display: none;
+    }
+
+    .content .main {
+        padding: 5.6vw 5.8vw 11.21vw 8.2vw;
+        background-color: transparent;
     }
 
     .content {
         max-width: 100vw;
     }
 
-    .content .mainPoster {
-        height: 58.4vw;
-        background-image: url(../img/gomora2.png);
-        padding: 0 0 6.6vw 8.3vw;
-    }
-
-    .content .mainPoster .pinkBtn {
-        width: 37.6vw;
-        height: 8.9vw;
-        border-radius: 5.7vw;
-        font-size: 2.23vw;
-        box-shadow: 1vw 1vw 1vw rgba(0, 0, 0, 0.5);
-    }
-
     .content .transition {
         background-color: transparent;
+        padding: 0 0 1.46vw 10.8vw;
     }
 
     .content .transition .transText {
@@ -793,29 +873,36 @@ header .menu .orangeHover a {
         margin: 0 3.6vw 0.3vw 0;
     }
 
-    .content .mainPoster .pinkBtn {
+
+    .pageContent .right .mobileStyle {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .pageContent .right .mobileStyle .p {
+        font-size: 2.6vw;
+        width: 91%;
+    }
+
+    .pageContent .right .teg .tegText {
         background-color: #F36F21;
+        color: black;
+        width: 14.7vw;
+        height: 5.3vw;
+        border-radius: 3vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .content .tittleBox {
         border: none;
     }
 
-    .content .tittleBox .h3 {
-        display: none;
-    }
-
     .pageContent {
         flex-direction: column;
     }
 
-    .pageContent .right .moodBox .moodTittleBox,
-    .pageContent .right .moodBlock,
-    .pageContent .right .orangeTeg,
-    .pageContent .right .tittle,
-    .pageContent .mobileStyle .app {
-        display: none;
-    }
 
     .pageContent .right .teg {
         background-color: transparent;
@@ -828,8 +915,8 @@ header .menu .orangeHover a {
     }
 
     .pageContent .right .imgGomora {
-            width: 32vw;
-    height: 20.6vw;
+        width: 32vw;
+        height: 20.6vw;
 
         background-image: url(../img/locImg.png);
         background-size: cover;
@@ -846,12 +933,14 @@ header .menu .orangeHover a {
     .pageContent .right {
         flex-direction: row;
         padding: 0 0 4.2vw;
+        padding: 0 3vw;
     }
 
     .pageContent .left .h1 {
         font-size: 3.9vw;
         line-height: 7.04vw;
         margin: 5.4vw 0 3.4vw;
+        padding: 0 3vw;
     }
 
     .pageContent .left .h1 span {
@@ -866,13 +955,17 @@ header .menu .orangeHover a {
     }
 
     .pageContent .left .placat {
-        width: 98%;
+        width: 93%;
         height: 31.4vw;
         background-position: center;
         background-image: url(../img/Image1.png);
         background-repeat: no-repeat;
         background-size: cover;
-        margin: 0 0 2.2vw;
+        margin: 0 auto 2.2vw;
+    }
+
+    .pageContent .left .imgTittle {
+        margin: 0;
     }
 
     .pageContent .left .text .txt {
@@ -881,6 +974,7 @@ header .menu .orangeHover a {
 
     .pageContent .left .text {
         justify-content: space-between;
+        padding: 0 3vw;
     }
 
     .pageContent .left .text .img {
@@ -922,7 +1016,11 @@ header .menu .orangeHover a {
     .content .tittleBox .h3 {
         font-size: 4.45vw;
         background-color: transparent;
+        width: 100%;
+        text-align: left;
+        padding: 0 3vw;
     }
+
 
     .pageContent .mobileStyle .h3 {
         font-size: 4.45vw;
@@ -935,7 +1033,18 @@ header .menu .orangeHover a {
     .pageContent .right .mobileApp,
     .pageContent .right .mobileApp span {
         display: flex;
-        font-size: 1.1vw;
+        font-size: 1.8vw;
+        font-family: 'AvenirLTStd-Light_2', sans-serif;
+        font-weight: 100;
+    }
+
+    .pageContent .right .mobileApp span {
+        display: flex;
+        font-size: 1.8vw;
+        font-family: 'AEH', sans-serif;
+        color: #4EA7FF;
+        margin: 0 0 0.05vw 1.5vw;
+        border-bottom: 1px solid #4EA7FF;
     }
 
     .pageContent .right .mobileApp {
@@ -943,7 +1052,7 @@ header .menu .orangeHover a {
     }
 
     .pageContent .left .watchBtn {
-        width: 19.1vw;
+        width: 25.1vw;
         height: 6vw;
         color: #F36F21;
         border: 1px solid #F36F21;
@@ -957,10 +1066,18 @@ header .menu .orangeHover a {
         padding: 0.1vw 0 0;
     }
 
+    .pageContent .left .text div:last-of-type {
+        align-items: flex-end;
+    }
+
     .pageContent .left .icon {
         width: 5.5vw;
         height: 5.5vw;
         margin: 0 2vw 0 0;
+    }
+
+    .pageContent .left .icon:last-of-type {
+        margin: 0;
     }
 
     .content .tittle .seeAll {
@@ -968,10 +1085,7 @@ header .menu .orangeHover a {
         margin: 0 0 1.2vw;
     }
 
-    .content .main {
-        padding: 13.9vw 9.5vw 5.21vw 9.5vw;
-        background-color: transparent;
-    }
+
 
     .content .tittle {
         padding: 0 0 2.24vw;
@@ -988,8 +1102,11 @@ header .menu .orangeHover a {
         height: 28vw;
         padding: 0;
         background-color: none;
-        border-radius: 2.5vw;
         margin: 0;
+    }
+
+    .pageContent .left .h3 {
+        border: none;
     }
 
     .owl-carousel .item .img img {
@@ -1033,11 +1150,23 @@ header .menu .orangeHover a {
     }
 
     .pageContent .left .slider {
-        margin: 0 0 8vw 0vw;
+        margin: 0;
     }
 
     .owl-carousel .owl-nav button.owl-prev {
-        display: none;
+        transform: rotate(180deg);
+        left: -5.3vw;
+    }
+
+    .left .seeAll {
+        font-size: 2.04vw;
+        padding: 0;
+        color: white;
+        width: 8%;
+        text-decoration: none;
+        position: relative;
+        left: 88%;
+        margin: 0 0 5vw;
     }
 
     .owl-carousel {

@@ -26,6 +26,7 @@
             <li class="pinkHover"><a href="" class="menuText">Best of international</a></li>
             <li class="greenHover"><a href="" class="menuText">Kids</a></li>
             <li class="yellowHover"><a href="" class="menuText">Sport</a></li>
+            <li class="violetHover"><a href="Features.html" class="menuText">Features</a></li>
             <li><a class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"><img alt="" src="img/nav.png"></a></li>
         </ul>
         <input id="burger" type="checkbox" />
@@ -35,15 +36,25 @@
             <span></span>
             <span></span>
         </label>
-        <nav>
+       <nav>
             <ul class="burger">
-                <li style="background-color: #F36F21"><a href="LovingLocal.html" class="orangeHover">Loving local </a></li>
-                <li style="background-color: #E30087"><a href="" class="pinkHover">Best of international </a></li>
-                <li style="background-color: #FDB834"><a href="" class="yellowHover">Kids</a></li>
-                <li style="background-color: #4DB848"><a href="" class="greenHover">Sport</a></li>
-                <li style="background-color: #822A85"><a href="" class="purpleHover">how do i work this thing?
-                        <img class="modalImg" alt="" src="img/modalImg.png">
-                    </a></li>
+                <li><a href="LovingLocal.html" style="color: #F36F21">Loving local </a>
+                    <p style="border-bottom: 1px solid #F36F21"></p>
+                </li>
+                <li><a href="" style="color: #E30087">Best of international </a>
+                    <p style="border-bottom: 1px solid  #E30087"></p>
+                </li>
+                <li><a href="" style="color: #FDB834">Kids</a>
+                    <p style="border-bottom: 1px solid  #FDB834"></p>
+                </li>
+                <li><a href="" style="color: #4DB848">Sport</a>
+                    <p style="border-bottom: 1px solid  #4DB848"></p>
+                </li>
+                <li><a href="Features.html" style="color: #822A85">Features</a>
+                    <p style="border-bottom: 1px solid  #822A85"></p>
+                </li>
+                <li><a href="" id="purpleHover">How does AmaMeme work?</a>
+                    <a href="" class="watchBtnMenu">Watch now</a></li>
             </ul>
         </nav>
     </header>
@@ -51,16 +62,9 @@
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-
                 <div class="modal-body">
-                    <div class="modalBox" style="background-color: #F36F21">
-                        <h1 class="h1">how do i work this thing?</h1>
-                        <img class="modalImg" alt="" src="img/modalImg.png">
-                    </div>
-                    <div class="modalBox" style="background-color: #EC008C">
-                        <h1 class="h1">how do i work this thing?</h1>
-                        <img class="modalImg" alt="" src="img/modalImg.png">
-                    </div>
+                    <h1 class="h1">How does AmaMeme work?</h1>
+                    <div class="modalBox"></div>
                 </div>
             </div>
         </div>
@@ -73,7 +77,7 @@
             <div class="circle"></div>
             <a class="transText" href="index.html">Home</a>
             <img class="arr" alt="" src="img/arrOrange.png">
-            <a class="transText" href="LovingLocal.html">Loving local</a>
+            <a class="transText" href="LovingLocal.html" data-aos="zoom-in" data-aos-duration="800">Loving local</a>
         </div>
         <div class="mainPoster">
             <a class="pinkBtn">
@@ -86,13 +90,9 @@
             </div>
             <div class="pageContent">
                 <div class="right">
-                    <div class="img">
-                        <div class="imgGomora" data-aos="zoom-in" data-aos-duration="800"></div>
-                    </div>
                     <div class="mobileStyle">
-                        <h3 class="h3 mobile">Loving local</h3>
-                        <p class="textTittle" data-aos="zoom-in" data-aos-duration="800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra imperdiet sapien, egestas vulputate est feugiat</p>
-                        <a class="app mobileApp">Don’t have the app? <span>Get DStv package now</span></a>
+<!--                        <h3 class="h3 mobile">Loving local</h3>-->
+                        <a class="app mobileApp">Don't have a DStv? <span>Find out more</span></a>
                         <h2 class="tittle">Shows <span>trending now</span></h2>
                         <div class="teg">
                             <p class="tegText" data-aos="fade-right" data-aos-duration="800">#power</p>
@@ -100,6 +100,7 @@
                             <p class="tegText" data-aos="fade-right" data-aos-duration="800">#lockdown</p>
                             <p class="tegText" data-aos="fade-right" data-aos-duration="800">#bored</p>
                         </div>
+                        <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et ornare turpis. Vestibulum suscipit dapibus porta. Aliquam sit amet nisi ut justo gravida semper finibus at velit. Maecenas at nisi luctus, sagittis odio et, gravida quam. Nam aliquet eu orci sed dapibus. Dui</p>
                         <div class="moodBox">
                             <div class="moodTittleBox">
                                 <div class="line"></div>
@@ -113,25 +114,32 @@
                             </div>
                             <a class="orangeTeg">#Girlsnight</a>
                         </div>
-                        <a class="app">Don’t have the app? <span>Get DStv package now</span></a>
                     </div>
                 </div>
                 <div class="left">
-                    <h2 class="h1"><span>Ama-dice </span> Gomora</h2>
-                    <div class="img">
+                    <div class="tittle" data-aos="zoom-in" data-aos-duration="800">
+                        <h2 class="h1"><span>Ama-dice </span> Gomora</h2>
+                        <a class="app">Don't have a DStv? <span>Find out more</span></a>
+                    </div>
+
+                    <div class="img imgTittle">
                         <div class="placat" data-aos="fade-left" data-aos-duration="800"></div>
                     </div>
                     <div class="text">
-                        <div class="img"></div>
-                        <p class="txt">Gomora <span>Mon - Fri</span> <span>19:30</span></p>
-                        <div class="iconBox">
-                            <div class="face icon"></div>
-                            <div class="twit icon"></div>
-                            <div class="whats icon"></div>
+                        <div>
+                            <div class="img"></div>
+                            <p class="txt">Gomora <span>CH 161</span> <span>Mon - Fri</span> <span>19:30</span></p>
                         </div>
-                        <a href="" class="watchBtn mobile">Watch now</a>
+                        <div>
+                            <a href="" class="watchBtn">Watch now</a>
+                            <div class="iconBox" id="iconBox">
+                                <div class="face icon"></div>
+                                <div class="twit icon"></div>
+                                <div class="whats icon"></div>
+                            </div>
+                        </div>
                     </div>
-                    <h2 class="h3"><span>More from </span> Gomora</h2>
+                    <h2 class="h3" data-aos="zoom-in" data-aos-duration="800"><span>More from </span> Gomora</h2>
                     <div class="slider">
                         <div data-aos="fade-left" data-aos-duration="800">
                             <div class="owl-carousel">
@@ -166,7 +174,8 @@
                             </div>
                         </div>
                     </div>
-                    <h2 class="h2">Lockdown</h2>
+                    <a class="seeAll" href="" data-aos="fade-left" data-aos-duration="800">See All</a>
+                    <h2 class="h2" data-aos="zoom-in" data-aos-duration="800">Lockdown</h2>
                     <div class="slider">
                         <div data-aos="fade-left" data-aos-duration="800">
                             <div class="owl-carousel">
@@ -201,7 +210,8 @@
                             </div>
                         </div>
                     </div>
-                    <h2 class="h2">The River</h2>
+                    <a class="seeAll" href="" data-aos="fade-left" data-aos-duration="800">See All</a>
+                    <h2 class="h2" data-aos="zoom-in" data-aos-duration="800">The River</h2>
                     <div class="slider">
                         <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="800">
                             <div class="owl-carousel">
@@ -236,7 +246,8 @@
                             </div>
                         </div>
                     </div>
-                    <h2 class="h2">Isithembiso</h2>
+                    <a class="seeAll" href="" data-aos="fade-left" data-aos-duration="800">See All</a>
+                    <h2 class="h2" data-aos="zoom-in" data-aos-duration="800">Isithembiso</h2>
                     <div class="slider">
                         <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="900">
                             <div class="owl-carousel">
@@ -271,7 +282,9 @@
                             </div>
                         </div>
                     </div>
-                    <h2 class="h2" data-aos="fade-left" data-aos-duration="800">Getroud met Rugby</h2>
+                    <a class="seeAll" href="" data-aos="fade-left" data-aos-duration="800">See All</a>
+
+                    <h2 class="h2" data-aos="fade-left" data-aos-duration="800" data-aos="zoom-in" data-aos-duration="800">Getroud met Rugby</h2>
                     <div class="slider">
                         <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="1000">
                             <div class="owl-carousel">
@@ -306,6 +319,7 @@
                             </div>
                         </div>
                     </div>
+                    <a class="seeAll" href="" data-aos="fade-left" data-aos-duration="800">See All</a>
                 </div>
             </div>
 
@@ -350,6 +364,7 @@
             }
 
         });
+
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -357,7 +372,10 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+
     </script>
 
 
-</body></html>
+</body>
+
+</html>

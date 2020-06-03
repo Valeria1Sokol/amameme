@@ -19,4 +19,12 @@
     font-family: 'AvenirLTStd-Black', sans-serif;
     src: url("../font/AvenirLTStd-Black.otf");
 }
+@font-face {
+    font-family: 'AvenirLTStd-Light_2', sans-serif;
+    src: url("../font/AvenirLTStd-Light_2.otf");
+}
+@font-face {
+    font-family: 'AEH', sans-serif;
+    src: url("../font/AEH.ttf");
+}
 

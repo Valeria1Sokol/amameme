@@ -674,12 +674,12 @@
 
     .owl-carousel .text {
         position: absolute;
-        bottom: 3.5vw;
+        bottom: 1.3vw;
     }
 
     .owl-carousel .h4,
     .owl-carousel .p {
-        margin: 0 0 0 1.6vw;
+        margin: 0 0 0 3.6vw;
         font-size: 2.04vw;
         line-height: 1.5;
     }
@@ -703,7 +703,7 @@
     }
 
     .owl-carousel .item {
-        width: 93%;
+        width: 97%;
     }
 
     .owl-carousel .owl-nav button.owl-next,
@@ -713,6 +713,12 @@
         top: 39%;
         right: -2.7vw;
         opacity: 1 !important;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev {
+        transform: rotate(180deg);
+        left: -2.7vw;
+        display: block;
     }
 
     .filmBox .imgBox {
