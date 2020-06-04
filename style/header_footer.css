@@ -517,9 +517,9 @@ footer .footerBox li:first-of-type a {
 
     #burger + label span {
         width: 100%;
-        height: 4px;
+        height: 0.4vw;
         top: 50%;
-        margin-top: -3px;
+        margin-top: -0.4vw;
         left: 0;
         display: block;
         background: #00A7B9;
@@ -528,13 +528,13 @@ footer .footerBox li:first-of-type a {
     }
 
     #burger + label span:first-child {
-        top: 3px;
-        margin-top: -2px;
+        /*        top: 3px;*/
+        margin-top: -0.1vw;
     }
 
     #burger + label span:last-child {
-        top: 31px;
-        margin-top: -5px;
+        /*        top: 31px;*/
+        margin-top: -0.51vw;
     }
 
     .labelMenu:hover {
@@ -746,15 +746,13 @@ footer .footerBox li:first-of-type a {
         top: 17vw;
     }
 
-    #burger + label span {
-        margin-top: -3px;
-    }
 }
 
 @media (max-width: 768px) {
 
     #burger + label span {
-        margin-top: -4px;
+        margin-top: -0.5vw;
+
     }
 
     #burger:checked + label span:first-child,
@@ -763,11 +761,9 @@ footer .footerBox li:first-of-type a {
         height: 5px;
     }
 
-    #burger + label span:last-child {
-
-        margin-top: -3px;
-    }
 }
+
+@media (max-width: 600px) {}
 
 @media (max-width: 425px) {
 
@@ -777,16 +773,12 @@ footer .footerBox li:first-of-type a {
         height: 3px;
     }
 
-    #burger + label span:last-child {
-        margin-top: -1px;
-    }
-
     #burger ~ nav > .burger > li {
         margin: 0 0 2px;
     }
 
-    #burger + label span {
-        margin-top: -2px;
+    #burger + label span:first-child {
+        margin-top: -0.3vw;
     }
 }
 
@@ -799,28 +791,12 @@ footer .footerBox li:first-of-type a {
     }
 
     #burger + label span:last-child {
-        margin-top: -4px;
-    }
-
-    #burger ~ nav > .burger > li {
-        margin: 0 0 2px;
-    }
-
-    #burger + label span {
-        margin-top: -3px;
-    }
-
-    #burger:checked + label span:last-child {
-        margin-top: -2px;
+        margin-top: -0.61vw;
     }
 }
 
 @media (max-width: 320px) {
-    #burger + label span {
-        margin-top: -4px;
-    }
-
-    #burger:checked + label span:last-child {
-        margin-top: -1px;
+    #burger + label span:first-child {
+        margin-top: -0.2vw;
     }
 }

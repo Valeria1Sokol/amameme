@@ -508,7 +508,7 @@ body {
 
 }
 
-@media (max-width: 600px) {
+@media all and (max-width: 600px) {
     .textRes .h1 {
         font-size: 5.3vw;
         line-height: 5.3vw;
@@ -553,7 +553,7 @@ body {
         font-size: 3.7vw;
     }
 
-    content .main .noRes .watchBtn {
+    .content .main .noRes .watchBtn {
         width: 40vw;
         height: 8vw;
         font-size: 3.4vw;
