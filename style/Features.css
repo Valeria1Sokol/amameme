@@ -425,7 +425,7 @@ body {
         padding: 0.63vw 6.3vw 5.21vw;
     }
 
- 
+
 
     .textTittle .h1 {
         font-size: 4.45vw;
@@ -548,6 +548,40 @@ body {
     .main .imgRes .blueBox .img {
         left: 0.5vw;
         bottom: 0.5vw;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .textTittle .h1 {
+        font-size: 5.3vw;
+        line-height: 5.3vw;
+    }
+
+    .textTittle .text .p {
+        font-size: 3vw;
+    }
+
+    .textRes .app,
+    .textRes .app span {
+        font-size: 2.8vw;
+    }
+
+    .textRes .tegBox .teg {
+        height: 5vw;
+        width: 20.7vw;
+    }
+
+    .textRes .tegBox .teg .tegText {
+        font-size: 2.4vw;
+    }
+
+    .content .tittle .h3 {
+        font-size: 4vw;
+    }
+
+    .content .tittle .line {
+        width: 63%;
     }
 
 }

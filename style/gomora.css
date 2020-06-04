@@ -1263,12 +1263,57 @@ body {
     }
 }
 
-@media (max-width: 425px) {
-    /*
-    .pageContent .left .icon {
-        width: 5vw;
-        height: 5vw;
-        margin: 0 1.5vw 0 0;
+@media (max-width: 600px) {
+    .mobileView:first-of-type {
+        width: 45%;
     }
-*/
+
+    .mobileView {
+        width: 55%;
+    }
+
+    .pageContent .mobileView .h3 {
+        font-size: 5.3vw;
+    }
+
+    .pageContent .right .textTittle {
+        font-size: 3vw;
+    }
+
+    .pageContent .text .img {
+        width: 6.7vw;
+        height: 4vw;
+    }
+
+    .pageContent .text div .txt {
+        margin: 0;
+        font-size: 2.3vw;
+    }
+
+    .pageContent .left .app,
+    .pageContent .left .app span {
+        font-size: 2.8vw;
+    }
+
+    .pageContent .watchBtn {
+        font-size: 2.8vw;
+        width: 27vw;
+    }
+
+    .pageContent .networks .netText {
+        font-size: 2.5vw;
+    }
+
+    .pageContent .networks .icon {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    .pageContent .left .h2 {
+        font-size: 4vw;
+    }
+    .pageContent .left .moodTittleBox .h3 {
+    font-size: 3vw;
+}
+
 }

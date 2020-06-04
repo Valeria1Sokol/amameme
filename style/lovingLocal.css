@@ -1199,10 +1199,66 @@ header .menu .orangeHover a {
     }
 }
 
-@media (max-width: 425px) {
-    .pageContent .left .icon {
-        width: 5vw;
-        height: 5vw;
-        margin: 0 1.5vw 0 0;
+@media (max-width: 600px) {
+    .content .tittleBox .h3 {
+        font-size: 5.3vw;
     }
+
+    .pageContent .right .mobileStyle .p {
+        font-size: 3vw;
+    }
+
+    .pageContent .right .teg {
+        width: 95%;
+        font-size: 2.4vw;
+    }
+
+    .pageContent .right .teg .tegText {
+        width: 17.7vw;
+    }
+
+    .pageContent .right .mobileApp,
+    .pageContent .right .mobileApp span {
+        font-size: 2.8vw;
+    }
+
+    .pageContent .left .text .txt {
+        font-size: 2.6vw;
+    }
+
+    .pageContent .left .watchBtn {
+        font-size: 2.8vw;
+        padding: 0.3vw 0 0;
+    }
+
+    .pageContent .left .icon {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    .pageContent .left .h1 span {
+        font-size: 4.6vw;
+    }
+
+    .pageContent .left .h3 span,
+    .pageContent .left .h3 {
+        font-size: 4vw;
+    }
+
+    .owl-carousel .h4,
+    .owl-carousel .p {
+        font-size: 3vw;
+        letter-spacing: 1px;
+    }
+
+    .left .seeAll {
+        font-size: 2.4vw;
+        width: 9%;
+    }
+
+    .pageContent .left .h2 {
+        font-size: 4vw;
+    }
+
 }
+

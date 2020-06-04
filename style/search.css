@@ -507,3 +507,57 @@ body {
     }
 
 }
+
+@media (max-width: 600px) {
+    .textRes .h1 {
+        font-size: 5.3vw;
+        line-height: 5.3vw;
+    }
+
+    .textRes .sort {
+        font-size: 3.2vw;
+    }
+
+    .textRes .tittle .app,
+    .textRes .tittle .app span {
+        font-size: 2.8vw;
+    }
+
+    .textRes .tegBox .teg {
+        height: 5vw;
+        width: 20.7vw;
+    }
+
+    .textRes .tegBox .teg .tegText {
+        font-size: 2.4vw;
+    }
+
+    .content .main .textRes .textRes {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .textRes .tegBox {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        margin: 3vw 0 0;
+    }
+
+    .textRes .tittle .numOfRes {
+        font-size: 3.3vw;
+    }
+
+    .content .main .noRes .text .p {
+        font-size: 3.7vw;
+    }
+
+    content .main .noRes .watchBtn {
+        width: 40vw;
+        height: 8vw;
+        font-size: 3.4vw;
+    }
+
+
+}
