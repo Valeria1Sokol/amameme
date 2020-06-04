@@ -92,7 +92,8 @@ body {
 }
 
 .content .mainPoster .pinkBtn {
-    font-family: 'FuturaMediumC', sans-serif;
+    font-family: FuturaMedium;
+    font-weight: normal;
     width: 235px;
     height: 40px;
     background-color: #EC008C;
@@ -182,7 +183,8 @@ body {
 }
 
 .pageContent .right .tittle span {
-    font-family: 'FuturaMediumC', sans-serif;
+    font-family: FuturaMedium;
+    font-weight: normal;
     color: #F36F21;
 }
 
@@ -267,7 +269,7 @@ body {
     padding: 31px 17px;
     color: #F36F21;
     font-size: 13px;
-    font-family: 'AvenirLTStd-Black', sans-serif;
+    font-family: AvenirLTStd-Black;
     margin: 0 0 12px;
     width: 77%;
     text-align: center;
@@ -275,7 +277,7 @@ body {
 
 .pageContent .left .app {
     font-size: 15px;
-    font-family: 'AvenirLTStd-Light_2', sans-serif;
+    font-family: AvenirLTStd-Light_2;
     color: white;
     font-weight: 100;
     text-align: right;
@@ -354,7 +356,7 @@ body {
     border: 1px solid #F36F21;
     border-radius: 25px;
     font-size: 15px;
-    font-family: 'AvenirLTStd-Book', sans-serif;
+    font-family: AvenirLTStd-Book;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -473,7 +475,8 @@ body {
 
 .pageContent .left .h2 {
     font-size: 25px;
-    font-family: 'FuturaMediumC', sans-serif;
+    font-family: FuturaMedium;
+    font-weight: normal;
     margin: 0;
     position: absolute;
     bottom: 20px;
@@ -862,16 +865,6 @@ body {
         max-width: 100vw;
     }
 
-    .content .search input {
-        width: 72%;
-        height: 10vw;
-        font-size: 3.15vw;
-        padding: 0 5.6vw;
-        border-radius: 5vw;
-        background-image: url(../img/searchImgMob.png);
-        background-size: 10%;
-    }
-
     .content .transition {
         background-color: transparent;
         padding: 0 8.4vw;
@@ -927,7 +920,6 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        /*        margin: 0 3.7vw 0 0;*/
     }
 
     .pageContent .right .textTittle {
@@ -1012,7 +1004,7 @@ body {
     .pageContent .text .txt span {
         border-left: 1px solid white;
         padding: 0 0.5vw;
-        font-family: 'AvenirLTStd-Light_2', sans-serif;
+        font-family: AvenirLTStd-Light_2;
         font-weight: 100;
     }
 
@@ -1031,16 +1023,18 @@ body {
         position: relative;
         bottom: 0;
         left: 0px;
+        font-family: Futura_Bold;
     }
 
     .pageContent .left .imgBox .img {
         left: 0.5vw;
         bottom: 0.5vw;
     }
+
     .owl-carousel .item .img {
-    bottom: 0.5vw;
-    left: 0.5vw;
-}
+        bottom: 0.5vw;
+        left: 0.5vw;
+    }
 
     .pageContent .left .p {
         font-size: 1.5vw;
@@ -1085,7 +1079,7 @@ body {
         border: 1px solid #F36F21;
         border-radius: 6.3vw;
         font-size: 1.9vw;
-        font-family: 'AvenirLTStd-Book', sans-serif;
+        font-family: AvenirLTStd-Book;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -1112,7 +1106,7 @@ body {
         width: 100%;
         margin-top: 2vw;
         font-size: 2vw;
-        font-family: 'AvenirLTStd-Book', sans-serif;
+        font-family: AvenirLTStd-Book;
     }
 
     .pageContent .networks .icon {
@@ -1144,7 +1138,7 @@ body {
     }
 
     .pageContent .mobileView .h3 {
-        font-family: 'Futura_Bold';
+        font-family: Futura_Bold;
         font-size: 4.45vw;
         color: #F36F21;
     }
@@ -1270,7 +1264,7 @@ body {
 }
 
 @media (max-width: 425px) {
-/*
+    /*
     .pageContent .left .icon {
         width: 5vw;
         height: 5vw;

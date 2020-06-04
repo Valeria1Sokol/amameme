@@ -30,7 +30,8 @@
 }
 
 .content .mainPoster .pinkBtn {
-    font-family: 'FuturaMediumC', sans-serif;
+    font-family: FuturaMedium;
+    font-weight: normal;
     width: 235px;
     height: 40px;
     background-color: #EC008C;
@@ -373,7 +374,8 @@
 }
 
 .text .p {
-    font-family: 'AvenirLTStd-Book', sans-serif;
+    font-family: AvenirLTStd-Light_2;
+    letter-spacing: 0.4px;
 }
 
 .owl-carousel .imgBox .img-fluid:hover {
@@ -696,10 +698,12 @@
         line-height: 1.5;
         margin: 0 0 0 2.6vw;
         padding: 0;
+        font-family: Futura_Bold;
     }
 
     .owl-carousel .text .p {
         padding: 0 3vw 0 0;
+        font-family: Futura_Bold;
     }
 
     .owl-carousel .item {
@@ -790,4 +794,8 @@
         margin: 0 0 8.7vw;
     }
 
+}
+@media (max-width: 600px)
+{
+    
 }

@@ -46,7 +46,7 @@ body {
 
 .textTittle .h1 {
     font-size: 48px;
-    font-family: 'Futura_Bold';
+    font-family: Futura_Bold;
     color: #822A85;
     line-height: 48px;
     margin: 0;
@@ -115,7 +115,7 @@ body {
 
 .textRes .app {
     font-size: 15px;
-    font-family: 'AvenirLTStd-Light_2', sans-serif;
+    font-family: AvenirLTStd-Light_2;
     color: white !important;
     font-weight: 100;
     text-align: right;
@@ -425,15 +425,7 @@ body {
         padding: 0.63vw 6.3vw 5.21vw;
     }
 
-    .content .search input {
-        width: 72%;
-        height: 10vw;
-        font-size: 3.15vw;
-        padding: 0 5.6vw;
-        border-radius: 5vw;
-        background-image: url(../img/searchImgMob.png);
-        background-size: 10%;
-    }
+ 
 
     .textTittle .h1 {
         font-size: 4.45vw;

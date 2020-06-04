@@ -83,7 +83,8 @@ header .menu .orangeHover a {
 }
 
 .content .mainPoster .pinkBtn {
-    font-family: 'FuturaMediumC', sans-serif;
+    font-family: FuturaMedium;
+    font-weight: normal;
     width: 235px;
     height: 40px;
     background-color: #EC008C;
@@ -173,7 +174,7 @@ header .menu .orangeHover a {
 }
 
 .pageContent .right .tittle {
-    font-family: 'FuturaPT_Book', sans-serif;
+    font-family: 'FuturaLT_Book', sans-serif;
     color: white;
     font-weight: normal;
     font-size: 21px;
@@ -181,7 +182,8 @@ header .menu .orangeHover a {
 }
 
 .pageContent .right .tittle span {
-    font-family: 'FuturaMediumC', sans-serif;
+    font-family: FuturaMedium;
+    font-weight: normal;
     color: #F36F21;
 }
 
@@ -189,10 +191,10 @@ header .menu .orangeHover a {
     width: 206px;
     height: 198px;
     background-color: #F36F21;
-    border-radius: 1.4vw;
+    border-radius: 15px;
     color: #121212;
     font-size: 21px;
-    font-family: 'FuturaPT_Book', sans-serif;
+    font-family: 'FuturaLT_Book', sans-serif;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -250,10 +252,10 @@ header .menu .orangeHover a {
 .pageContent .right .moodBlock .categories {
     border: 1px solid #F36F21;
     border-radius: 15px;
-    padding: 33px 17px;
+    padding: 31px 14px;
     color: #F36F21;
     font-size: 13px;
-    font-family: 'AvenirLTStd-Black', sans-serif;
+    font-family: AvenirLTStd-Black;
     margin: 0 0 18px;
 }
 
@@ -298,7 +300,7 @@ header .menu .orangeHover a {
 
 .pageContent .left .app {
     font-size: 15px;
-    font-family: 'AvenirLTStd-Light_2', sans-serif;
+    font-family: AvenirLTStd-Light_2;
     color: white;
     font-weight: 100;
 }
@@ -314,7 +316,8 @@ header .menu .orangeHover a {
 
 .pageContent .left .h1 {
     font-size: 21px;
-    font-family: 'FuturaMediumC', sans-serif;
+    font-family: FuturaMedium;
+    font-weight: normal;
     color: #F36F21;
     margin: 0;
 }
@@ -371,7 +374,7 @@ header .menu .orangeHover a {
     border-radius: 24px;
     color: #F36F21;
     font-size: 14px;
-    font-family: 'AvenirLTStd-Book', sans-serif;
+    font-family: AvenirLTStd-Book;
     padding: 10px 52px;
 }
 
@@ -443,7 +446,8 @@ header .menu .orangeHover a {
 
 .pageContent .left .h3 {
     font-size: 21px;
-    font-family: 'FuturaMediumC', sans-serif;
+    font-family: FuturaMedium;
+    font-weight: normal;
     color: #F36F21;
     margin: 14px 0 29px;
     padding: 42px 0 0 50px;
@@ -480,7 +484,8 @@ header .menu .orangeHover a {
 .pageContent .left .h2 {
     margin: 44px 0 38px 50px;
     font-size: 21px;
-    font-family: 'FuturaMediumC', sans-serif;
+    font-family: FuturaMedium;
+    font-weight: normal;
     color: #F36F21;
 }
 
@@ -573,6 +578,11 @@ header .menu .orangeHover a {
     display: none;
 }
 
+.mobileStyle .p {
+    display: none;
+}
+
+
 @media (max-width: 1920px) {
     .content {
         max-width: 62vw;
@@ -655,7 +665,7 @@ header .menu .orangeHover a {
     .pageContent .right .teg {
         width: 10.73vw;
         height: 10.3vw;
-        border-radius: 1.4vw;
+        border-radius: 0.8vw;
         font-size: 1.1vw;
         padding: 1.15vw 0 1.46vw 2.7vw;
     }
@@ -680,7 +690,7 @@ header .menu .orangeHover a {
 
     .pageContent .right .moodBlock .categories {
         border-radius: 0.8vw;
-        padding: 1.72vw 0.9vw;
+        padding: 1.6vw 0.66vw;
         font-size: 0.7vw;
         margin: 0 0 0.94vw;
     }
@@ -695,13 +705,14 @@ header .menu .orangeHover a {
 
     .pageContent .right .app {
         margin: 2vw 0 0;
-        font-size: 0.7vw;
+        font-size: 0.78vw;
     }
 
     .pageContent .right .app span {
-        font-size: 0.58vw;
+        font-size: 0.78vw;
         margin: 0 0 0.05vw 0.5vw;
     }
+
 
     .pageContent .left {
         width: 57.8%;
@@ -846,6 +857,10 @@ header .menu .orangeHover a {
     .pageContent .left .app,
     .content .mainPoster {
         display: none;
+    }
+
+    .mobileStyle .p {
+        display: flex;
     }
 
     .content .main {
@@ -1003,6 +1018,7 @@ header .menu .orangeHover a {
     .pageContent .left .h2 {
         margin: 0 0 2vw 1.1vw;
         font-size: 3.4vw;
+        font-family: Futura_Bold;
     }
 
     .pageContent .left .slider {
@@ -1034,7 +1050,7 @@ header .menu .orangeHover a {
     .pageContent .right .mobileApp span {
         display: flex;
         font-size: 1.8vw;
-        font-family: 'AvenirLTStd-Light_2', sans-serif;
+        font-family: AvenirLTStd-Light_2;
         font-weight: 100;
     }
 
@@ -1058,7 +1074,7 @@ header .menu .orangeHover a {
         border: 1px solid #F36F21;
         border-radius: 3.3vw;
         font-size: 2.1vw;
-        font-family: 'AvenirLTStd-Book', sans-serif;
+        font-family: AvenirLTStd-Book;
         display: flex;
         flex-direction: row;
         justify-content: center;
