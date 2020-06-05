@@ -34,7 +34,7 @@ body {
 
 h3,
 h4 {
-    font-family: 'Futura_Bold' !important;
+    font-family: Futura_Bold !important;
     margin: 0;
 }
 
@@ -159,7 +159,7 @@ header .menu .violetHover:hover {
     color: rgba(255, 255, 255, 1);
     font-size: 22px;
     padding: 0 60px;
-    font-family: 'FuturaPT_Book', sans-serif;
+    font-family: FuturaPT_Book;
     border: 0.5px solid rgba(255, 255, 255, 1);
     border-radius: 2vw;
     position: relative;
@@ -255,7 +255,7 @@ footer .footerBox {
 
 footer .footerBox a {
     font-size: 14px;
-    font-family: 'FuturaLTBook', sans-serif;
+    font-family: FuturaLT_Book;
     color: rgba(255, 255, 255, 0.6);
     margin: 0 44px 0 0;
 }
@@ -649,7 +649,7 @@ footer .footerBox li:first-of-type a {
 
     #burger ~ nav > .burger > li > #purpleHover {
         font-size: 2.6vw;
-        font-family: 'FuturaPT_Book', sans-serif;
+        font-family: FuturaLT_Book;
     }
 
     #burger ~ nav > .burger > li > .watchBtnMenu {
@@ -762,8 +762,6 @@ footer .footerBox li:first-of-type a {
     }
 
 }
-
-@media (max-width: 600px) {}
 
 @media (max-width: 425px) {
 

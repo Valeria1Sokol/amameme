@@ -43,7 +43,7 @@ body {
     align-items: center;
     background-color: #1D1D1D;
     color: #F36F21;
-    font-family: 'FuturaPT_Book', sans-serif;
+    font-family: FuturaLT_Book;
     padding: 0 0 28px 125px;
     font-size: 21px;
 }
@@ -58,7 +58,7 @@ body {
 
 .content .transition .transText {
     color: #F36F21;
-    font-family: 'FuturaPT_Book', sans-serif;
+    font-family: FuturaLT_Book;
     font-size: 21px;
     margin: 0 20px 6px;
     border-bottom: 1px solid transparent;
@@ -75,7 +75,7 @@ body {
 }
 
 .transText:last-of-type {
-    font-weight: bold;
+    font-family: FuturaLT_Bold !important;
 }
 
 .content .mainPoster {
@@ -174,19 +174,23 @@ body {
     margin: 19px 0 23px;
 }
 
+/*
 .pageContent .right .tittle {
-    font-family: 'FuturaPT_Book', sans-serif;
+    font-family: FuturaPT_Book;
     color: white;
     font-weight: normal;
     font-size: 21px;
     margin: 3vw 0 0.9vw;
 }
+*/
 
+/*
 .pageContent .right .tittle span {
     font-family: FuturaMedium;
     font-weight: normal;
     color: #F36F21;
 }
+*/
 
 .pageContent .networks {
     width: 100%;
@@ -249,7 +253,7 @@ body {
 .pageContent .right .moodBox .h3 {
     font-size: 17px;
     color: white;
-    font-family: 'FuturaPT_Book', sans-serif !important;
+    font-family: FuturaLT_Book !important;
     font-weight: normal;
     padding: 0;
     margin: 0;
@@ -271,7 +275,7 @@ body {
     font-size: 13px;
     font-family: AvenirLTStd-Black;
     margin: 0 0 12px;
-    width: 77%;
+    width: 73%;
     text-align: center;
 }
 
@@ -286,7 +290,7 @@ body {
 
 .pageContent .left .app span {
     font-size: 15px;
-    font-family: 'AEH', sans-serif;
+    font-family: AEH;
     color: #4EA7FF;
     border-bottom: 1px solid #4EA7FF;
     padding: 0 0 5px;
@@ -327,16 +331,17 @@ body {
 
 .pageContent .left .text .txt {
     margin: 0;
+    font-family: AEH;
 }
 
 .pageContent .left .text .txt span {
     border-left: 1px solid white;
     padding: 0 5px;
+    font-family: AvenirLTStd-Light_2;
 }
 
 .pageContent .left .text .txt span:first-of-type {
     margin: 0 0 0 8px;
-    border: none;
 }
 
 .pageContent .left .text .img {
@@ -505,7 +510,7 @@ body {
 .pageContent .left .moodTittleBox .h3 {
     font-size: 21px;
     color: white;
-    font-family: 'FuturaPT_Book', sans-serif !important;
+    font-family: FuturaLT_Book !important;
     font-weight: normal;
     padding: 0;
     margin: 54px 0 18px;
@@ -564,7 +569,7 @@ body {
 }
 
 .owl-carousel.owl-drag .owl-item {
-    padding: 10px 10px 0 0;
+    padding: 10px 20px 0 0;
 }
 
 .owl-carousel {
@@ -576,11 +581,6 @@ body {
     font-size: 17px;
 }
 
-.pageContent .left .networks .netText {
-    margin: 0 14px 0 0;
-    font-family: 'FuturaPT_Book', sans-serif;
-    font-weight: normal;
-}
 
 .pageContent .mobile,
 .mobileImg {
@@ -819,7 +819,7 @@ body {
     }
 
     .owl-carousel.owl-drag .owl-item {
-        padding: 0.5vw 0.5vw 0 0;
+        padding: 0.5vw 1vw 0 0;
     }
 
     .owl-carousel {
@@ -1263,7 +1263,7 @@ body {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .mobileView:first-of-type {
         width: 45%;
     }
@@ -1281,13 +1281,35 @@ body {
     }
 
     .pageContent .text .img {
-        width: 6.7vw;
-        height: 4vw;
+        width: 11.7vw;
+        height: 7vw;
     }
 
     .pageContent .text div .txt {
         margin: 0;
-        font-size: 2.3vw;
+        width: 64%;
+        /*        font-size: 2.3vw;*/
+        font-size: 3.2vw;
+    }
+
+    .pageContent .text .txt span {
+        border-left: none;
+        /*        padding: 0 0 0 1.5vw;*/
+        font-family: AvenirLTStd-Light_2;
+        font-weight: 100;
+    }
+
+    .pageContent .text .txt span:first-of-type {
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        padding: 0 1.5vw;
+    }
+
+    .pageContent .text .txt span:last-of-type {
+        border-left: 1px solid white;
+        padding: 0 0 0 1.5vw;
+        font-family: AvenirLTStd-Light_2;
+        font-weight: 100;
     }
 
     .pageContent .left .app,
@@ -1296,24 +1318,29 @@ body {
     }
 
     .pageContent .watchBtn {
-        font-size: 2.8vw;
-        width: 27vw;
+        width: 38.1vw;
+        height: 8vw;
+        border-radius: 6.3vw;
+        font-size: 4.1vw;
+        margin: 5vw 0 2vw;
     }
 
     .pageContent .networks .netText {
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
 
     .pageContent .networks .icon {
-        width: 7vw;
-        height: 7vw;
+        width: 8.5vw;
+        height: 8.5vw;
+        margin: 0 3vw 0 0;
     }
 
     .pageContent .left .h2 {
         font-size: 4vw;
     }
+
     .pageContent .left .moodTittleBox .h3 {
-    font-size: 3vw;
-}
+        font-size: 3vw;
+    }
 
 }

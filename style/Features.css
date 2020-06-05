@@ -55,7 +55,7 @@ body {
 }
 
 .textTittle .h1 span {
-    font-family: 'FuturaPT_Book', sans-serif;
+    font-family: FuturaLT_Book;
     color: white;
     border-left: 5px solid #822A85;
     padding: 0 0 0 26px;
@@ -108,7 +108,7 @@ body {
 .textRes .tegBox .teg .tegText {
     font-size: 11px;
     color: #121212;
-    font-family: 'FuturaPT_Book', sans-serif;
+    font-family: FuturaLT_Bold;
     margin: 0;
     font-weight: bold;
 }
@@ -132,7 +132,7 @@ body {
 
 .textRes .app span {
     font-size: 15px;
-    font-family: 'AEH', sans-serif;
+    font-family: AEH;
     color: #4EA7FF;
     border-bottom: 1px solid #4EA7FF;
     padding: 0 0 5px;
@@ -344,6 +344,10 @@ body {
         margin: 0 0.83vw 0 0;
     }
 
+    .textRes .tegBox .teg .tegText {
+        font-size: 0.58vw;
+    }
+
     .textRes .app {
         font-size: 0.78vw;
         margin: 2vw 0 1.46vw;
@@ -552,7 +556,7 @@ body {
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .textTittle .h1 {
         font-size: 5.3vw;
         line-height: 5.3vw;

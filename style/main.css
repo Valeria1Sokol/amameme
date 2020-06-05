@@ -118,7 +118,7 @@
 
 .content .tittle .seeAll {
     font-size: 12px;
-    font-family: 'FuturaPT_Book', sans-serif;
+    font-family: FuturaPT_Book;
     margin: 0 0 10px;
     line-height: 1.7;
 }
@@ -374,7 +374,7 @@
 }
 
 .text .p {
-    font-family: AvenirLTStd-Light_2;
+    font-family: AvenirLTStd-Book;
     letter-spacing: 0.4px;
 }
 
@@ -676,7 +676,7 @@
 
     .owl-carousel .text {
         position: absolute;
-        bottom: 1.3vw;
+        bottom: 2.3vw;
     }
 
     .owl-carousel .h4,
@@ -691,9 +691,7 @@
     }
 
     .filmBox .h4,
-    .filmBox .p,
-    .kidsBox .filmBox .h4,
-    .kidsBox .filmBox .p {
+    .kidsBox .filmBox .h4 {
         font-size: 2.04vw;
         line-height: 1.5;
         margin: 0 0 0 2.6vw;
@@ -701,9 +699,17 @@
         font-family: Futura_Bold;
     }
 
+    .filmBox .p,
+    .kidsBox .filmBox .p {
+        display: none;
+    }
+
     .owl-carousel .text .p {
+        display: none;
+        /*
         padding: 0 3vw 0 0;
         font-family: Futura_Bold;
+*/
     }
 
     .owl-carousel .item {
@@ -796,7 +802,7 @@
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .content .mainPoster .pinkBtn {
         width: 44vw;
         font-size: 2.9vw;

@@ -7,29 +7,40 @@
     font-family: FuturaMedium;
     src: url("../font/FuturaLT/Futura Medium.otf") format("opentype");
 }
+
 @font-face {
-    font-family: 'FuturaPT_Book' , sans-serif;
-    src: url("../font/FuturaLT/FuturaPT-Book.ttf") format('truetype');
+    font-family: FuturaPT_Book;
+    src: url("../font/FuturaLT/futura-pt-book.otf") format("opentype");
 }
+
 @font-face {
-    font-family: 'FuturaLTBook' , sans-serif;
-    src: url("../font/FuturaLT/FuturaLTBook.ttf") format('truetype');
+    font-family: FuturaLT_Book;
+    src: url("../font/FuturaLT/FuturaLT-Book.otf") format("opentype");
 }
+
+@font-face {
+    font-family: FuturaLT_Bold;
+    src: url("../font/FuturaLT/FuturaLTBold.otf") format("opentype");
+}
+
 @font-face {
     font-family: AvenirLTStd-Book;
     src: url("../font/AvenirLTStd-Book.otf") format("opentype");
 }
+
 @font-face {
     font-family: AvenirLTStd-Black;
     src: url("../font/AvenirLTStd-Black.otf") format("opentype");
 }
 
 @font-face {
-    font-family: 'AEH', sans-serif;
-    src: url("../font/AEH.ttf") format('truetype');
+    font-family: AEH;
+    src: url("../font/Avenir-Heavy.woff") format('woff');
 }
+
 @font-face {
     font-family: AvenirLTStd-Light_2;
     src: url("../font/AvenirLTStd-Light_2.otf") format("opentype");
 }
 
+@import url(//db.onlinewebfonts.com/c/70700c84f783f6dcb8459abcfb6d9d02?family=Futura+LT);

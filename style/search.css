@@ -137,7 +137,7 @@ body {
 .textRes .tegBox .teg .tegText {
     font-size: 14px;
     color: #121212;
-    font-family: 'FuturaPT_Book', sans-serif;
+    font-family: FuturaLT_Bold;
     margin: 0;
     font-weight: bold;
     width: 143px;
@@ -160,7 +160,7 @@ body {
     font-size: 25px;
     letter-spacing: 1px;
     color: white;
-    font-family: AvenirLTStd-Book;
+    font-family: FuturaPT_Book;
 }
 
 .textRes .tittle .app {
@@ -182,7 +182,7 @@ body {
 
 .textRes .tittle .app span {
     font-size: 15px;
-    font-family: 'AEH', sans-serif;
+    font-family: AEH;
     color: #4EA7FF;
     border-bottom: 1px solid #4EA7FF;
     padding: 0 0 5px;
@@ -194,7 +194,7 @@ body {
     font-size: 20px;
     width: 100%;
     text-align: right;
-    font-family: 'FuturaPT_Book', sans-serif;
+    font-family: FuturaPT_Book;
     color: white;
     margin: 0 0 22px;
     transition: all 1s;
