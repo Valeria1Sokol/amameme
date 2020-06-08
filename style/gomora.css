@@ -271,12 +271,15 @@ body {
     border: 1px solid #F36F21;
     border-radius: 15px;
     padding: 31px 17px;
-    color: #F36F21;
-    font-size: 13px;
-    font-family: AvenirLTStd-Black;
     margin: 0 0 12px;
     width: 73%;
     text-align: center;
+}
+.pageContent .right .moodBlock .categories p{
+    color: #F36F21;
+    font-size: 13px;
+    font-family: AvenirLTStd-Black;
+    margin: 0;
 }
 
 .pageContent .left .app {
@@ -723,9 +726,10 @@ body {
     .pageContent .right .moodBlock .categories {
         border-radius: 0.8vw;
         padding: 1.6vw 0.9vw;
-        font-size: 0.7vw;
         margin: 0 0 0.64vw;
-        width: 77%;
+    }
+    .pageContent .right .moodBlock .categories p{
+        font-size: 0.7vw;
     }
 
     .pageContent .left .app {

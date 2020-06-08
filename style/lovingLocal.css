@@ -244,19 +244,22 @@ header .menu .orangeHover a {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    padding: 0 29px 0 0;
 }
 
 .pageContent .right .moodBlock .categories {
     border: 1px solid #F36F21;
     border-radius: 15px;
     padding: 31px 14px;
+    margin: 0 0 18px;
+}
+
+.pageContent .right .moodBlock .categories p {
     color: #F36F21;
     font-size: 13px;
     font-family: AvenirLTStd-Black;
-    margin: 0 0 18px;
+    margin: 0;
 }
 
 .pageContent .right .moodBlock .categories:nth-child(2n+1) {
@@ -687,15 +690,14 @@ header .menu .orangeHover a {
         margin: 2.8vw 0 0.94vw;
     }
 
-    .pageContent .right .moodBlock {
-        padding: 0 1.5vw 0 0;
-    }
-
     .pageContent .right .moodBlock .categories {
         border-radius: 0.8vw;
         padding: 1.6vw 0.66vw;
-        font-size: 0.7vw;
         margin: 0 0 0.94vw;
+    }
+
+    .pageContent .right .moodBlock .categories p {
+        font-size: 0.7vw;
     }
 
     .pageContent .right .moodBlock .categories:nth-child(2n+1) {
@@ -724,7 +726,8 @@ header .menu .orangeHover a {
     .pageContent .left .app {
         font-size: 0.78vw;
     }
-     .pageContent .left .app span{
+
+    .pageContent .left .app span {
         font-size: 0.78vw;
     }
 
@@ -914,6 +917,7 @@ header .menu .orangeHover a {
         display: flex;
         justify-content: center;
         align-items: center;
+        font-family: FuturaLT_Book;
     }
 
     .content .tittleBox {
