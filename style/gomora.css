@@ -270,12 +270,16 @@ body {
 .pageContent .right .moodBlock .categories {
     border: 1px solid #F36F21;
     border-radius: 15px;
-    padding: 31px 17px;
     margin: 0 0 12px;
     width: 73%;
+    height: 83px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.pageContent .right .moodBlock .categories p{
+
+.pageContent .right .moodBlock .categories p {
     color: #F36F21;
     font-size: 13px;
     font-family: AvenirLTStd-Black;
@@ -720,15 +724,15 @@ body {
 
     .pageContent .right .moodBox .h3 {
         font-size: 0.9vw;
-        ;
     }
 
     .pageContent .right .moodBlock .categories {
         border-radius: 0.8vw;
-        padding: 1.6vw 0.9vw;
         margin: 0 0 0.64vw;
+        height: 4.4vw;
     }
-    .pageContent .right .moodBlock .categories p{
+
+    .pageContent .right .moodBlock .categories p {
         font-size: 0.7vw;
     }
 

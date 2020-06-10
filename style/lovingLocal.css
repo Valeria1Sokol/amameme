@@ -243,16 +243,20 @@ header .menu .orangeHover a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
-    justify-content: flex-start;
+    width: 86%;
+    justify-content: space-between;
     align-items: center;
 }
 
 .pageContent .right .moodBlock .categories {
     border: 1px solid #F36F21;
     border-radius: 15px;
-    padding: 31px 14px;
     margin: 0 0 18px;
+    width: 96px;
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pageContent .right .moodBlock .categories p {
@@ -260,10 +264,6 @@ header .menu .orangeHover a {
     font-size: 13px;
     font-family: AvenirLTStd-Black;
     margin: 0;
-}
-
-.pageContent .right .moodBlock .categories:nth-child(2n+1) {
-    margin: 0 18px 18px 0;
 }
 
 .pageContent .right .orangeTeg {
@@ -692,16 +692,13 @@ header .menu .orangeHover a {
 
     .pageContent .right .moodBlock .categories {
         border-radius: 0.8vw;
-        padding: 1.6vw 0.66vw;
         margin: 0 0 0.94vw;
+        width: 5vw;
+        height: 4.4vw;
     }
 
     .pageContent .right .moodBlock .categories p {
         font-size: 0.7vw;
-    }
-
-    .pageContent .right .moodBlock .categories:nth-child(2n+1) {
-        margin: 0 0.94vw 0.94vw 0;
     }
 
     .pageContent .right .orangeTeg {
