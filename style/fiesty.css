@@ -227,7 +227,7 @@ body {
     overflow: hidden;
 }
 
-.main .imgRes .orangeBox .img1{
+.main .imgRes .orangeBox .img1 {
     width: 100%;
     height: 100%;
     background-position: center;
@@ -316,6 +316,7 @@ body {
         font-size: 0.94vw;
         margin: 2.8vw 0;
     }
+
     .h4 {
         font-size: 0.68vw;
     }
@@ -343,7 +344,7 @@ body {
     }
 
     .content .tegBox .teg .tegText {
-         font-size: 0.73vw;
+        font-size: 0.73vw;
         width: 7.2vw;
         height: 2.45vw;
     }
@@ -379,7 +380,7 @@ body {
 }
 
 @media all and (max-width:1080px) {
-  
+
     .content .transition .arr {
         width: 0.8vw;
         margin: 0 0 0.3vw;
@@ -492,20 +493,55 @@ body {
     .main .imgRes .shareBox {
         padding: 0 2.5vw 1.6vw;
     }
+
     .main .imgRes .orangeBox .img {
-    left: 0.41vw;
-    bottom: 0.41vw;
-}
+        left: 0.41vw;
+        bottom: 0.41vw;
+    }
 
 
 }
-@media all and (max-width: 600px) {
+
+@media (max-width: 768px) {
+    .textTittle .h1 {
+        font-size: 5.3vw;
+        line-height: 5.3vw;
+    }
+
+    .textTittle .text .p {
+        font-size: 3vw;
+    }
+
+    .textRes .app,
+    .textRes .app span {
+        font-size: 2.8vw;
+    }
+
+    .content .tegBox .teg {
+        height: 7.3vw;
+        width: 22vw;
+    }
+
     .content .tegBox .teg .tegText {
         font-size: 2.4vw;
-        height: 5vw;
-        width: 20.7vw;
     }
-     .content .h3 {
+
+    .content .h3 {
+        font-size: 6.3vw;
+    }
+
+    .main .imgRes .shareBox .share {
+        width: 5.4vw;
+        height: 5.4vw;
+        margin-right: 1vw;
+    }
+
+
+}
+
+@media all and (max-width: 600px) {
+
+    .content .h3 {
         font-size: 5.3vw;
         line-height: 5.3vw;
     }
@@ -514,7 +550,8 @@ body {
     .content .tittle .app span {
         font-size: 2.8vw;
     }
+
     .rotateTriang {
-    width: 3.4vw;
-}
+        width: 3.4vw;
+    }
 }

@@ -782,6 +782,10 @@ footer .footerBox li:first-of-type a {
         height: 5px;
     }
 
+    .rotateTriang {
+        width: 4.4vw;
+    }
+
 }
 
 @media (max-width: 425px) {

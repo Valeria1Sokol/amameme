@@ -537,15 +537,6 @@ body {
         font-size: 2.8vw;
     }
 
-    .textRes .tegBox .teg {
-        height: 5vw;
-        width: 20.7vw;
-    }
-
-    .textRes .tegBox .teg .tegText {
-        font-size: 2.4vw;
-    }
-
     .content .main .textRes .textRes {
         /*        flex-direction: column;*/
         justify-content: flex-start;

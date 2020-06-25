@@ -512,4 +512,9 @@ body {
     .textRes .h1 {
         font-size: 5.3vw;
     }
+     .main .imgRes .shareBox .share {
+        width: 5.4vw;
+        height: 5.4vw;
+        margin-right: 1vw;
+    }
 }
