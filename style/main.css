@@ -19,14 +19,7 @@
 .content .mainPoster {
     width: 100%;
     height: 240px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-end;
-    background-image: url(../img/gomora.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0 0 30px 175px;
+
 }
 
 .content .mainPoster .pinkBtn {
@@ -49,6 +42,73 @@
 .content .mainPoster .pinkBtn:hover {
     cursor: pointer;
     color: white;
+}
+
+#sliderPoster {
+    width: 100%;
+    height: 100%;
+}
+
+#sliderPoster .item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url(../img/gomora.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 30px 175px;
+}
+
+#sliderPoster .owl-stage-outer,
+#sliderPoster .owl-stage,
+#sliderPoster.owl-drag .owl-item {
+    height: 100%;
+    width: 100%;
+}
+
+#sliderPoster .owl-nav button.owl-next,
+#sliderPoster .owl-nav button.owl-prev {
+    background-color: transparent;
+    border-radius: 50%;
+    width: 43px;
+    height: 43px;
+    top: 41%;
+    right: 2px;
+    background-image: url(../img/arrowR.png);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: 53% center;
+    position: absolute;
+}
+
+#sliderPoster .owl-nav button.owl-prev {
+    left: 0;
+    transform: rotate(180deg);
+    display: block;
+}
+
+#sliderPoster .owl-dots {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0.5vw;
+}
+
+#sliderPoster .owl-dot {
+    width: 11px;
+    height: 11px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 17px 0 0;
+}
+#sliderPoster .owl-dot:last-of-type {
+    margin: 0;
 }
 
 .content .main {
@@ -165,38 +225,53 @@
     background-color: #4DB848;
 }
 
-.filmBox {
-    border-radius: 20px;
-    overflow: hidden;
-}
-
 .filmBox .imgBox {
     padding: 0 0 1px 1px;
-    border-radius: 20px;
     margin: 0 0 11px;
-    overflow: hidden;
 }
 
 .filmBox .imgBox .img {
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    position: relative;
+    left: 4px;
+    bottom: 4px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    transition: all 0.5s;
+    transition: all .5s;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    overflow: hidden;
 }
 
-.filmBox .imgBox .img:hover {
-    transform: scale(1.1);
-}
 
 .imgBox .img6 {
     background-image: url(../img/img1.png);
 }
 
+.imgBox .imgHover {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.filmBox .imgBox .imgHover:hover {
+    transform: scale(1.1);
+}
+
 .imgBox .img7 {
     background-image: url(../img/img2.png);
+    position: relative;
 }
 
 .imgBox .img8 {
@@ -264,7 +339,6 @@
     width: 47%;
     height: 257px;
     background-color: #FDB834;
-    border-radius: 20px;
     margin: 0 0 1.67vw;
     display: flex;
     flex-direction: column;
@@ -296,8 +370,6 @@
     display: none;
 }
 
-
-
 /*slider style*/
 .owl-carousel {
     display: none;
@@ -306,7 +378,7 @@
 }
 
 .item {
-    padding: 0 1px;
+    padding: 4px 0 0;
 }
 
 .item .imgBox {
@@ -314,9 +386,8 @@
     height: 168px;
     padding: 0 0 0.05vw 0.05vw;
     background-color: #F36F21;
-    border-radius: 20px;
     margin: 0 0 0.63vw;
-    overflow: hidden;
+    position: relative;
 }
 
 .item .imgBox img {
@@ -378,7 +449,7 @@
     letter-spacing: 0.4px;
 }
 
-.owl-carousel .imgBox .img-fluid:hover {
+.owl-carousel .imgBox .img-fluid .imgHover:hover {
     transform: scale(1.1);
 }
 
@@ -388,10 +459,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 20px;
     transition: all 0.5s;
+    overflow: hidden;
+    position: relative;
+    left: 4px;
+    bottom: 4px;
 }
-
 
 .owl-carousel .imgBox .img1 {
     background-image: url(../img/img11.png);
@@ -433,7 +506,17 @@
 
     .content .mainPoster {
         height: 12.5vw;
+
+    }
+
+    #sliderPoster .item {
         padding: 0 0 1.6vw 9.12vw;
+    }
+
+    #sliderPoster .owl-dot {
+        width: 0.6vw;
+        height: 0.6vw;
+        margin: 0 0.9vw 0 0;
     }
 
     .content .mainPoster .pinkBtn {
@@ -500,21 +583,12 @@
 
     .filmBox .imgBox {
         padding: 0 0 0.05vw 0.05vw;
-        border-radius: 1.05vw;
         margin: 0 0 0.6vw;
     }
 
-    .filmBox {
-        border-radius: 1.05vw;
-        overflow: hidden;
-    }
-
-    .filmBox .imgBox .img:hover {
-        transform: scale(1.1);
-    }
-
     .filmBox .imgBox .img {
-        border-radius: 1.05vw;
+        left: 0.21vw;
+        bottom: 0.21vw;
     }
 
     .movieBox .left .filmBox .imgBox {
@@ -538,7 +612,6 @@
     .kidsBox .filmBox {
         width: 47%;
         height: 13.4vw;
-        border-radius: 1.05vw;
         margin: 0 0 1.67vw;
     }
 
@@ -563,14 +636,13 @@
     }
 
     .item {
-        padding: 0 0.1vw;
+        padding: 0.21vw 0.1vw 0;
     }
 
     .item .imgBox {
         width: 10.9vw;
         height: 8.8vw;
         padding: 0 0 0.05vw 0.05vw;
-        border-radius: 1.05vw;
         margin: 0 0 0.63vw;
     }
 
@@ -593,8 +665,15 @@
         background-position: 53% center;
     }
 
+    #sliderPoster .owl-nav button.owl-next,
+    #sliderPoster .owl-nav button.owl-prev {
+        width: 2.25vw;
+        height: 2.25vw;
+    }
+
     .owl-carousel .imgBox .img-fluid {
-        border-radius: 1.05vw;
+        left: 0.21vw;
+        bottom: 0.21vw;
     }
 }
 
@@ -609,8 +688,20 @@
 
     .content .mainPoster {
         height: 58.4vw;
+    }
+
+    #sliderPoster .item {
         background-image: url(../img/gomora2.png);
         padding: 0 0 6.6vw 8.3vw;
+    }
+
+    #sliderPoster .owl-dot {
+        width: 1vw;
+        height: 1vw;
+        margin: 0 1.6vw 0 0;
+    }
+    #sliderPoster .owl-dots {
+        bottom: 1vw;
     }
 
     .content .mainPoster .pinkBtn {
@@ -621,7 +712,13 @@
         box-shadow: 1vw 1vw 1vw rgba(0, 0, 0, 0.5);
     }
 
-    .content .tittle .line {
+    .content .tittle .line,
+    .filmBox .p,
+    .kidsBox .filmBox .p,
+    .owl-carousel .text .p,
+    .kidsBox .filmBox:nth-of-type(3),
+    .kidsBox .filmBox:nth-of-type(4),
+    .green {
         display: none;
     }
 
@@ -648,7 +745,8 @@
         margin: 0 0 8.7vw 0;
     }
 
-    #sliderSport {
+    #sliderSport,
+    .owl-carousel {
         display: block;
     }
 
@@ -658,20 +756,17 @@
         height: 22vw;
     }
 
-
     .owl-carousel .item .imgBox {
         width: 100%;
         height: 25vw;
         padding: 0 0 0.05vw 0.05vw;
         background-color: #F36F21;
-        border-radius: 2.5vw;
     }
 
     .owl-carousel .item .imgBox .img {
         width: 100%;
         margin: 0;
         height: 100%;
-        border-radius: 2.5vw;
     }
 
     .owl-carousel .text {
@@ -682,34 +777,17 @@
     .owl-carousel .h4,
     .owl-carousel .p {
         margin: 0 0 0 3.6vw;
-        font-size: 2.04vw;
+        font-size: 2.4vw;
         line-height: 1.5;
-    }
-
-    .owl-carousel .imgBox .img-fluid {
-        border-radius: 2.5vw;
     }
 
     .filmBox .h4,
     .kidsBox .filmBox .h4 {
-        font-size: 2.04vw;
+        font-size: 2.4vw;
         line-height: 1.5;
         margin: 0 0 0 2.6vw;
         padding: 0;
         font-family: Futura_Bold;
-    }
-
-    .filmBox .p,
-    .kidsBox .filmBox .p {
-        display: none;
-    }
-
-    .owl-carousel .text .p {
-        display: none;
-        /*
-        padding: 0 3vw 0 0;
-        font-family: Futura_Bold;
-*/
     }
 
     .owl-carousel .item {
@@ -721,24 +799,26 @@
         width: 7.8vw;
         height: 7.8vw;
         top: 39%;
-        right: -2.7vw;
+        right: -6.7vw;
         opacity: 1 !important;
+        background-color: transparent;
+    }
+
+    #sliderPoster .owl-nav button.owl-next,
+    #sliderPoster .owl-nav button.owl-prev {
+        width: 7.8vw;
+        height: 7.8vw;
     }
 
     .owl-carousel .owl-nav button.owl-prev {
         transform: rotate(180deg);
-        left: -2.7vw;
+        left: -6.7vw;
         display: block;
     }
 
     .filmBox .imgBox {
         padding: 0 0 0.1vw 0.1vw;
-        border-radius: 2.5vw;
         margin: 0 0 0.6vw;
-    }
-
-    .filmBox .imgBox .img {
-        border-radius: 2.5vw;
     }
 
     .movieBox .left .filmBox .imgBox {
@@ -760,18 +840,12 @@
     .movieBox .right .filmBox .imgBox {
         height: 15.9vw;
         width: 37vw;
-        overflow: hidden;
         margin: 0;
-    }
-
-    .filmBox .imgBox {
-        overflow: hidden;
     }
 
     .kidsBox .filmBox {
         width: 47.4%;
         height: 34.43vw;
-        border-radius: 2.5vw;
         margin: 0 0 1.67vw;
     }
 
@@ -779,36 +853,31 @@
         margin: 0 3vw 0 0;
     }
 
-    .kidsBox .filmBox:nth-of-type(3),
-    .kidsBox .filmBox:nth-of-type(4) {
-        display: none;
-    }
-
     .movieBox .right .filmBox:first-of-type {
         margin: 0 0 2.2vw;
-    }
-
-    .owl-carousel {
-        display: block;
-    }
-
-    .green {
-        display: none;
     }
 
     #sliderLocal {
         margin: 0 0 8.7vw;
     }
 
+    .owl-carousel .imgBox .img-fluid,
+    .filmBox .imgBox .img,
+    .owl-carousel .imgBox .img-fluid,
+    .filmBox .imgBox .img {
+        left: 0.41vw;
+        bottom: 0.41vw;
+    }
+
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
     .content .mainPoster .pinkBtn {
         width: 44vw;
         font-size: 2.9vw;
     }
 
-    .content .mainPoster {
+    #sliderPoster .item {
         padding: 0 0 6.6vw 6.3vw;
     }
 
@@ -824,19 +893,6 @@
         font-size: 2.9vw;
     }
 
-    .owl-carousel .p {
-        font-size: 2.4vw;
-    }
-
-    .owl-carousel .owl-nav button.owl-next,
-    .owl-carousel .owl-nav button.owl-prev {
-        right: -3.7vw;
-    }
-
-    .owl-carousel .owl-nav button.owl-prev {
-        left: -4.7vw;
-    }
-
     .owl-carousel .text .p {
         padding: 0 1.5vw 1vw 0;
     }
@@ -850,4 +906,10 @@
     .kidsBox .filmBox .p {
         font-size: 2.4vw;
     }
+    #sliderPoster .owl-dot {
+    width: 1.4vw;
+    height: 1.4vw;
+}
+
+
 }

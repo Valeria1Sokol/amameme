@@ -30,6 +30,7 @@ body {
     background-position: center;
     font-family: AvenirLTStd-Light_2;
     animation: wave 80s linear infinite;
+    cursor: default;
 }
 
 h3,
@@ -149,7 +150,7 @@ header .menu .violetHover:hover {
     justify-content: center;
     align-items: center;
     background-color: #1D1D1D;
-    padding: 53px 0;
+    padding: 65px 0 55px;
 }
 
 .content .search input {
@@ -363,7 +364,23 @@ footer .footerBox li:first-of-type a {
     display: none;
 }
 
+.rotateTriang {
+    width: 27px;
+    animation: rotate 5s linear infinite;
+    bottom: 1vw;
+    left: 1vw;
+    position: relative;
+}
+
+.textRes {
+    position: relative;
+}
+
 @media all and (max-width:1920px) {
+    .rotateTriang {
+        width: 1.4vw;
+    }
+
     .modal {
         top: 6.5vw;
     }
@@ -387,7 +404,7 @@ footer .footerBox li:first-of-type a {
     }
 
     .content .search {
-        padding: 2.8vw 0;
+        padding: 3.4vw 0 2.8vw;
     }
 
     .content .search input {
@@ -473,6 +490,10 @@ footer .footerBox li:first-of-type a {
         /*        background-size: cover;*/
         background-size: 142% 105%;
         animation: wave 20s linear infinite;
+    }
+
+    .rotateTriang {
+        width: 2.4vw;
     }
 
     header .menu .orangeHover,

@@ -1,0 +1,520 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+header .menu .orangeHover {
+    color: #F36F21;
+    border-bottom: 2px solid #F36F21;
+}
+
+header .menu .orangeHover a {
+    color: #F36F21;
+}
+
+body {
+    background-size: 74% 98%;
+    animation: wave 8s linear infinite;
+}
+
+.content {
+    max-width: 1190px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+    overflow-x: hidden;
+    background-color: #1D1D1D;
+}
+
+
+.content .transition {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #1D1D1D;
+    color: #F36F21;
+    font-family: FuturaLT_Book;
+    padding: 0 0 102px 121px;
+    font-size: 21px;
+}
+
+.content .transition .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #F36F21;
+    margin: 0 0 6px;
+}
+
+.content .transition .transText {
+    color: #F36F21;
+    font-family: FuturaLT_Book;
+    font-size: 21px;
+    margin: 0 20px 6px;
+    border-bottom: 1px solid transparent;
+}
+
+.content .transition .transText:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #F36F21;
+}
+
+.content .transition .arr {
+    width: 6px;
+    margin: 0 0 6px;
+}
+
+.transText:last-of-type {
+    font-family: FuturaLT_Bold !important;
+}
+
+.content .tittleBox {
+    width: 100%;
+    color: #F36F21;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 0 0 121px;
+}
+
+.content .tittle {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 95px 93px 0;
+}
+
+.content .tegBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 121px;
+}
+
+.content .tegBox .teg {
+    border-radius: 29px;
+    background-color: #F36F21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 16px 0 0;
+    cursor: pointer;
+}
+
+.content .tegBox .teg:last-of-type {
+    margin: 0;
+}
+
+.content .tegBox .teg .tegText {
+    font-size: 14px;
+    color: #121212;
+    font-family: FuturaLT_Bold;
+    margin: 0;
+    font-weight: bold;
+    width: 130px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .app {
+    font-size: 15px;
+    font-family: AvenirLTStd-Light_2;
+    color: white !important;
+    font-weight: 100;
+    text-align: right;
+    cursor: pointer;
+}
+
+.content .app:hover {
+    color: white;
+}
+
+.content .app:hover span {
+    color: #4EA7FF;
+}
+
+.content .app span {
+    font-size: 15px;
+    font-family: AEH;
+    color: #4EA7FF;
+    border-bottom: 1px solid #4EA7FF;
+    padding: 0 0 5px;
+    margin: 0 0 0 7px;
+}
+
+.content .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #1D1D1D;
+    padding: 0 125px 100px;
+}
+
+.content .h3 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.content .top .tittleBox {
+    width: 100%;
+    color: #F36F21;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0 0 10px;
+}
+
+.h4 {
+    font-size: 0.68vw;
+    color: white;
+    margin: 0;
+}
+
+.main .textTittle {
+    font-size: 18px;
+    font-weight: 100;
+    margin: 54px 0 52px;
+    color: white;
+}
+
+.main .imgRes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 0 34px;
+}
+
+.main .imgRes .orangeBox {
+    background-color: #F36F21;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main .imgRes .orangeBox {
+    height: 472px;
+}
+
+.main .imgRes .orangeBox .img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 4px;
+    bottom: 4px;
+    overflow: hidden;
+}
+
+.main .imgRes .orangeBox .img1{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s;
+}
+
+.main .imgRes .orangeBox .img1:hover {
+    transform: scale(1.1);
+}
+
+.main .imgRes .shareBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    padding: 0 24px 24px;
+}
+
+.main .imgRes .shareBox .share {
+    width: 44px;
+    height: 44px;
+    background-color: #F36F21;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.main .imgRes .shareBox .share:nth-of-type(1) {
+    background-image: url(../img/Group5679.png);
+}
+
+.main .imgRes .shareBox .share:nth-of-type(2) {
+    background-image: url(../img/face.png);
+}
+
+.main .imgRes .shareBox .share:nth-of-type(3) {
+    background-image: url(../img/whatsUp.png);
+}
+
+@media all and (max-width:1920px) {
+    body {
+        background-size: 100% 98%;
+    }
+
+    .content {
+        max-width: 62vw;
+    }
+
+    .content .transition {
+        padding: 0 0 5.3vw 6.5vw;
+        font-size: 1.1vw;
+    }
+
+    .content .transition .circle {
+        width: 0.8vw;
+        height: 0.8vw;
+        margin: 0 0 0.3vw;
+    }
+
+    .content .transition .transText {
+        font-size: 1.1vw;
+        margin: 0 1.05vw 0.3vw;
+    }
+
+    .content .transition .arr {
+        width: 0.31vw;
+        margin: 0 0 0.3vw;
+    }
+
+    .content .main {
+        padding: 0 6.5vw 5.21vw;
+    }
+
+    .content .h3 {
+        font-size: 2.5vw;
+    }
+
+    .main .textTittle {
+        font-size: 0.94vw;
+        margin: 2.8vw 0;
+    }
+    .h4 {
+        font-size: 0.68vw;
+    }
+
+    .content .tittleBox {
+        width: 100%;
+        padding: 0 0 0 6.3vw;
+    }
+
+    .content .tegBox {
+        padding: 0 0 0 6.3vw;
+    }
+
+    .h4 {
+        font-size: 0.68vw;
+    }
+
+    .content .tittle {
+        padding: 1.67vw 5vw 4.86vw 0;
+    }
+
+    .tegBox .teg {
+        border-radius: 2vw;
+        margin: 0 0.83vw 0 0;
+    }
+
+    .content .tegBox .teg .tegText {
+         font-size: 0.73vw;
+        width: 7.2vw;
+        height: 2.45vw;
+    }
+
+    .content .app,
+    .content .app span {
+        font-size: 0.78vw;
+    }
+
+    .main .imgRes .orangeBox {
+        height: 24.74vw;
+    }
+
+    .main .imgRes .orangeBox .img {
+        left: 0.21vw;
+        bottom: 0.21vw;
+    }
+
+    .main .imgRes .shareBox {
+        padding: 0 1.25vw 1.25vw;
+    }
+
+    .main .imgRes .shareBox .share {
+        width: 2.3vw;
+        height: 2.3vw;
+        margin-right: 0.5vw;
+    }
+
+    .main .imgRes {
+        margin: 0 0 2.1vw;
+    }
+
+}
+
+@media all and (max-width:1080px) {
+  
+    .content .transition .arr {
+        width: 0.8vw;
+        margin: 0 0 0.3vw;
+    }
+
+    .content .search {
+        background-color: transparent;
+        padding: 6.6vw 0 8.8vw;
+    }
+
+    .content {
+        max-width: 100vw;
+    }
+
+    .content .transition {
+        background-color: transparent;
+        padding: 0 9.5vw 7.4vw;
+    }
+
+    .content .tittleBox {
+        padding: 0 0 0 9.5vw;
+    }
+
+    .content .transition .transText {
+        font-size: 3vw;
+        margin: 0 1.05vw 0.3vw;
+    }
+
+    .content .transition .circle {
+        width: 2vw;
+        height: 2vw;
+        margin: 0 3.6vw 0.3vw 0;
+    }
+
+    .content .main {
+        padding: 0 8vw 7.1vw 9vw;
+        background-color: transparent;
+    }
+
+    .main .textTittle {
+        font-size: 2.6vw;
+        margin: 4.8vw 0 8vw;
+    }
+
+    .content .app,
+    .content .app span {
+        font-size: 1.78vw;
+    }
+
+    .content .h3 {
+        font-size: 4.45vw;
+    }
+
+    .content .tegBox .teg {
+        border-radius: 5vw;
+        margin: 0 1.83vw 0 0;
+    }
+
+    .content .tegBox .teg .tegText {
+        font-size: 1.67vw;
+        width: 14.6vw;
+        height: 5.3vw;
+    }
+
+    .content .tittle {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 3.67vw 1.56vw 8.6vw 9.5vw;
+    }
+
+    .content .tegBox {
+        padding: 0;
+    }
+
+    .content .tittle .app {
+        font-size: 1.8vw;
+        text-align: left;
+        margin: 3.8vw 0 0;
+    }
+
+    .content .tittle .app span {
+        font-size: 1.8vw;
+        padding: 0 0 0.5vw;
+        margin: 0 0 0 0.7vw;
+    }
+
+    .content .tittleText {
+        font-size: 3.52vw;
+        line-height: 3.52vw;
+        padding-left: 3.8vw;
+        margin-bottom: 5.35vw;
+    }
+
+    .main .imgRes .orangeBox {
+        height: 40vw;
+    }
+
+    .main .imgRes {
+        margin: 0 0 2.1vw;
+        padding: 0;
+    }
+
+    .main .imgRes .shareBox .share {
+        width: 3.7vw;
+        height: 3.7vw;
+        margin-right: 1vw;
+    }
+
+    .main .imgRes .shareBox {
+        padding: 0 2.5vw 1.6vw;
+    }
+    .main .imgRes .orangeBox .img {
+    left: 0.41vw;
+    bottom: 0.41vw;
+}
+
+
+}
+@media all and (max-width: 600px) {
+    .content .tegBox .teg .tegText {
+        font-size: 2.4vw;
+        height: 5vw;
+        width: 20.7vw;
+    }
+     .content .h3 {
+        font-size: 5.3vw;
+        line-height: 5.3vw;
+    }
+
+    .content .tittle .app,
+    .content .tittle .app span {
+        font-size: 2.8vw;
+    }
+    .rotateTriang {
+    width: 3.4vw;
+}
+}

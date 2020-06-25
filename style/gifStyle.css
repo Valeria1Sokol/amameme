@@ -1,0 +1,515 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+body {
+    animation: wave 300s linear infinite;
+}
+
+.content {
+    max-width: 1190px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+    overflow-x: hidden;
+    background-color: #1D1D1D;
+}
+
+.content .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #1D1D1D;
+    padding: 0 69px 100px 53px;
+}
+
+.content .main .textRes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 86px;
+}
+
+.content .main .textRes:first-of-type {
+    justify-content: flex-start;
+}
+
+.content .main .textRes:first-of-type {
+    margin: 0;
+}
+
+.content .main .textRes .textRes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.textRes .h1 {
+    font-size: 48px;
+    font-family: Futura_Bold;
+    color: #00ABBD;
+    line-height: 48px;
+    margin: 0;
+}
+
+.textRes .h2 {
+    font-size: 32px;
+    font-family: FuturaMedium;
+    color: white;
+    line-height: 48px;
+    margin: 0;
+}
+
+.textRes .h1 span {
+    font-family: FuturaMedium;
+    font-weight: normal;
+}
+
+.textRes .tegBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.textRes .tegBox .teg {
+    border-radius: 24px;
+    background-color: #00ABBD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 16px 0 0;
+    cursor: pointer;
+}
+
+.textRes .tegBox .teg:last-of-type {
+    margin: 0;
+}
+
+.textRes .tegBox .teg .tegText {
+    font-size: 14px;
+    color: #121212;
+    font-family: FuturaLT_Bold;
+    margin: 0;
+    font-weight: bold;
+    width: 130px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textRes .tittle {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 19px 0 60px;
+}
+
+
+.main .imgRes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 0 40px;
+}
+
+
+.main .imgRes .left,
+.main .imgRes .right {
+    width: 50%;
+}
+
+.main .imgRes .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .imgRes .left:first-of-type {
+    margin: 0 29px 0 0;
+}
+
+.main .imgRes .blueBox {
+    background-color: #00ABBD;
+    width: 100%;
+}
+
+.main .placat {
+    margin: 64px 0 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+}
+
+.main .placat .blueBox {
+    height: 542px;
+}
+
+.main .imgRes .left .blueBox {
+    height: 542px;
+    width: 100%;
+}
+
+.main .imgRes .right .blueBox {
+    margin: 0 0 25px;
+}
+
+.main .imgRes .right .blueBox:last-of-type {
+    margin: 0;
+}
+
+.main .imgRes .blueBox .img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 4px;
+    bottom: 4px;
+    overflow: hidden;
+}
+
+.main .imgRes .blueBox .img1,
+.main .imgRes .blueBox .img2,
+.main .imgRes .blueBox .img3 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s;
+}
+
+.main .imgRes .blueBox .img1:hover,
+.main .imgRes .blueBox .img2:hover,
+.main .imgRes .blueBox .img3:hover {
+    transform: scale(1.1);
+}
+
+.main .imgRes .blueBox .img2 {
+    height: 277px;
+}
+
+.main .imgRes .blueBox .img3 {
+    height: 240px
+}
+
+.main .imgRes .shareBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    padding: 0 24px 24px;
+}
+
+.main .imgRes .shareBox .share {
+    width: 44px;
+    height: 44px;
+    background-color: #00ABBD;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.main .imgRes .shareBox .share:nth-of-type(1) {
+    background-image: url(../img/Group5679.png);
+}
+
+.main .imgRes .shareBox .share:nth-of-type(2) {
+    background-image: url(../img/face.png);
+}
+
+.main .imgRes .shareBox .share:nth-of-type(3) {
+    background-image: url(../img/whatsUp.png);
+}
+
+
+
+@media all and (max-width:1920px) {
+
+    .content {
+        max-width: 62vw;
+    }
+
+    .content .main {
+        padding: 0 3.6vw 5.21vw 2.77vw;
+    }
+
+    .textRes .h1 {
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+    }
+
+    .textRes .tegBox .teg .tegText {
+        font-size: 0.73vw;
+        width: 6.8vw;
+        height: 2.45vw;
+    }
+
+    .textRes .tegBox .teg {
+        border-radius: 1.4vw;
+        margin: 0 0.84vw 0 0;
+    }
+
+    .textRes .tittle {
+        margin: 1vw 0 3.1vw;
+    }
+
+    .textRes .tittle .numOfRes {
+        font-size: 1.3vw;
+    }
+
+    .textRes .tittle .app {
+        font-size: 0.78vw;
+        margin: 2vw 0 1.46vw;
+    }
+
+    .textRes .tittle .app span {
+        font-size: 0.78vw;
+    }
+
+    .textRes .sort {
+        font-size: 1.05vw;
+        margin: 0 0 1.15vw;
+    }
+
+    .main .imgRes .left:first-of-type {
+        margin: 0 1.5vw 0 0;
+    }
+
+    .main .imgRes .left .blueBox {
+        height: 28.23vw;
+    }
+
+    .main .imgRes .blueBox .img {
+        left: 0.21vw;
+        bottom: 0.21vw;
+    }
+
+    .main .imgRes .right .blueBox {
+        margin: 0 0 1.3vw;
+    }
+
+    .main .imgRes .blueBox .img3 {
+        height: 12.5vw;
+    }
+
+    .main .imgRes .blueBox .img2 {
+        height: 14.43vw;
+    }
+
+    .main .imgRes .shareBox {
+        padding: 0 1.25vw 1.25vw;
+    }
+
+    .main .imgRes .shareBox .share {
+        width: 2.3vw;
+        height: 2.3vw;
+        margin-right: 0.5vw;
+    }
+
+    .main .placat .blueBox {
+        height: 28.2vw;
+    }
+
+    .main .placat {
+        margin: 3.3vw 0 2.7vw;
+    }
+
+    .textRes .h2 {
+        font-size: 1.67vw;
+        line-height: 2vw;
+    }
+
+}
+
+@media all and (max-width:1080px) {
+
+    .content .search {
+        background-color: transparent;
+        padding: 6.6vw 0 8.8vw;
+    }
+
+    .content {
+        max-width: 100vw;
+    }
+
+    .content .main .noRes .text .p {
+        font-size: 3.14vw;
+    }
+
+    .content .main .noRes .text {
+        padding: 9.8vw 0;
+    }
+
+    .content .main .noRes .watchBtn {
+        width: 38vw;
+        height: 7vw;
+        border-radius: 7vw;
+        font-size: 2.6vw;
+        padding: 2px 0 0;
+    }
+
+    .textRes .h1 {
+        font-size: 4.45vw;
+        line-height: 2.45vw;
+    }
+
+    .textRes .tittle {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 4vw 0 3.1vw;
+    }
+
+    .textRes .tittle .numOfRes {
+        font-size: 2.8vw;
+        margin: 0;
+    }
+
+    .textRes .tittle .app {
+        font-size: 1.8vw;
+        text-align: left;
+        margin: 2.2vw 0 0;
+    }
+
+    .textRes .tittle .app span {
+        font-size: 1.8vw;
+        padding: 0 0 0.5vw;
+        margin: 0 0 0 0.7vw;
+    }
+
+    .textRes .sort {
+        font-size: 2vw;
+        margin: 0 0 2vw;
+        letter-spacing: 1px;
+    }
+
+    .textRes .tegBox .teg .tegText {
+        font-size: 1.7vw;
+        margin: 0;
+        width: 15.8vw;
+        height: 5.3vw;
+    }
+
+    .textRes .tegBox .teg {
+        border-radius: 3.4vw;
+        margin: 0 1.84vw 0 0;
+    }
+
+    .content .main .textRes .textRes {
+        position: relative;
+    }
+
+    .textRes .tegBox {
+        right: 0;
+        bottom: -8vw;
+    }
+
+    .content .main {
+        padding: 0 6.6vw 5.21vw;
+    }
+
+    .main .imgRes .blueBox .img2 {
+        height: 23.1vw;
+    }
+
+    .main .imgRes .blueBox .img3 {
+        height: 20vw;
+    }
+
+    .main .imgRes .left .blueBox {
+        height: 44.23vw;
+    }
+
+    .main .imgRes {
+        margin: 0 0 3vw;
+    }
+
+    .main .imgRes .left:first-of-type {
+        margin: 0 2.5vw 0 0;
+    }
+
+    .main .imgRes .blueBox .img {
+        left: 0.5vw;
+        bottom: 0.5vw;
+    }
+
+    .main .imgRes .shareBox .share {
+        width: 3.7vw;
+        height: 3.7vw;
+        margin-right: 1vw;
+    }
+
+    .main .imgRes .shareBox {
+        padding: 0 2.5vw 1.6vw;
+    }
+
+    .main .placat {
+        margin: 6.6vw 0 3.8vw;
+    }
+
+    .main .placat .blueBox {
+        height: 41.2vw;
+    }
+
+    .textRes .h2 {
+        font-size: 3.5vw;
+    }
+}
+
+@media all and (max-width:768px) {
+    .rotateTriang {
+        width: 3.4vw;
+    }
+
+    .textRes .tittle .app,
+    .textRes .tittle .app span {
+        font-size: 2vw;
+    }
+
+    .content .tegBox .teg .tegText {
+       font-size: 2vw;
+    height: 6.3vw;
+    width: 18vw;
+    }
+
+    .item .h4 {
+        font-size: 2.7vw;
+    }
+
+    .item .p {
+        font-size: 2vw;
+    }
+
+    .textRes .h1 {
+        font-size: 5.3vw;
+    }
+}

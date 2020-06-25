@@ -91,14 +91,16 @@ body {
 }
 
 .textRes .tegBox .teg {
-    border-radius: 24px;
+    border-radius: 30px;
     background-color: #822A85;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 38px;
-    width: 119px;
+    height: 47px;
+    width: 130px;
     margin: 0 16px 0 0;
+    cursor: pointer;
+    
 }
 
 .textRes .tegBox .teg:last-of-type {
@@ -106,7 +108,7 @@ body {
 }
 
 .textRes .tegBox .teg .tegText {
-    font-size: 11px;
+    font-size: 14px;
     color: #121212;
     font-family: FuturaLT_Bold;
     margin: 0;
@@ -338,14 +340,14 @@ body {
     }
 
     .textRes .tegBox .teg {
-        border-radius: 1vw;
-        height: 2vw;
-        width: 6.2vw;
+        border-radius: 3vw;
         margin: 0 0.83vw 0 0;
+        width: 7.2vw;
+        height: 2.45vw;
     }
 
     .textRes .tegBox .teg .tegText {
-        font-size: 0.58vw;
+        font-size: 0.73vw;
     }
 
     .textRes .app {
