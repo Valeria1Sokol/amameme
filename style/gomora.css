@@ -639,13 +639,13 @@ body {
     }
 
     .main .top .text .img {
-        width: 8.6vw;
-        height: 5.2vw;
+        width: 10.6vw;
+        height: 7.2vw;
         margin: 0 2.1vw 0 0;
     }
 
     .main .top .text .txt {
-        font-size: 1.9vw;
+        font-size: 2.3vw;
     }
 
     .main .top .watchBtn {
@@ -801,9 +801,9 @@ body {
     }
 
     .content .tegBox .teg .tegText {
-        font-size: 2.4vw;
+        font-size: 2.2vw;
         height: 7.3vw;
-        width: 22vw;
+        width: 24vw;
     }
 
     .item .h4 {
@@ -817,10 +817,17 @@ body {
     .content .h3 {
         font-size: 5.3vw;
     }
-     .main .imgRes .shareBox .share {
+
+    .main .imgRes .shareBox .share {
         width: 5.4vw;
         height: 5.4vw;
         margin-right: 1vw;
+    }
+
+    .main .top .text .img {
+        width: 9.6vw;
+        height: 7.2vw;
+        margin: 0 2.1vw 0 0;
     }
 
 }
