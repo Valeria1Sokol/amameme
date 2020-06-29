@@ -261,6 +261,9 @@ body {
     margin-right: 10px;
     cursor: pointer;
 }
+.main .imgRes .shareBox .share:hover {
+    animation: pop 0.5s ease-in-out 1;
+}
 
 .main .imgRes .shareBox .share:nth-of-type(1) {
     background-image: url(../img/Group5679.png);

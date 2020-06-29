@@ -356,6 +356,7 @@ header .menu .orangeHover a {
     padding: 0 30px 0 0;
 }
 
+
 .main .imgRes .left,
 .main .imgRes .right,
 .main .imgRes .top {
@@ -464,6 +465,9 @@ header .menu .orangeHover a {
     background-size: 60%;
     margin-right: 10px;
     cursor: pointer;
+}
+.main .imgRes .shareBox .share:hover {
+    animation: pop 0.5s ease-in-out 1;
 }
 
 .main .imgRes .shareBox .share:nth-of-type(1) {
