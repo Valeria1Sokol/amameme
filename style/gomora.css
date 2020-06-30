@@ -385,6 +385,7 @@ body {
     align-items: center;
     position: absolute;
     padding: 0 24px 24px;
+    height: 88px;
 }
 
 .main .imgRes .shareBox .share {
@@ -397,6 +398,11 @@ body {
     background-size: 60%;
     margin-right: 10px;
     cursor: pointer;
+    opacity: 0;
+}
+
+.main .imgRes .orangeBox:hover .share {
+    opacity: 1;
 }
 
 .main .imgRes .shareBox .share:hover {
@@ -592,6 +598,7 @@ body {
 
     .main .imgRes .shareBox {
         padding: 0 1.25vw 1.25vw;
+        height: 4vw;
     }
 
     .main .imgRes .shareBox .share {
@@ -781,10 +788,12 @@ body {
         width: 3.7vw;
         height: 3.7vw;
         margin-right: 1vw;
+        opacity: 1;
     }
 
     .main .imgRes .shareBox {
         padding: 0 2.5vw 1.6vw;
+        height: 8vw;
     }
 
     .main .imgRes .orangeBox .img {
